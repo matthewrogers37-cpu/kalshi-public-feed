@@ -1,0 +1,115 @@
+name: Refresh public Kalshi sports feed
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kalshi-public-feed
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Check out feed
+        uses: actions/checkout@v4
+
+      - name: Fetch public market prices
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import { mkdir, rename, writeFile } from "node:fs/promises";
+
+          const API_URL = "https://external-api.kalshi.com/trade-api/v2/markets?status=open&mve_filter=exclude&limit=1000";
+          const TARGET_SERIES = [
+            "KXNFLGAME", "KXNFLSPREAD", "KXNFLTOTAL",
+            "KXNCAAFGAME", "KXNCAAFSPREAD", "KXNCAAFTOTAL",
+            "KXEPLGAME", "KXLALIGAGAME", "KXBUNDESLIGAGAME",
+            "KXSERIEAGAME", "KXLIGUE1GAME",
+            "KXUFCFIGHT", "KXUFCMOV", "KXUFCROUNDS"
+          ];
+
+          const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+          const isTarget = (market) => TARGET_SERIES.some((series) =>
+            String(market?.event_ticker || "").startsWith(`${series}-`)
+          );
+          const publicFields = (market) => ({
+            ticker: market.ticker,
+            event_ticker: market.event_ticker,
+            title: market.title,
+            subtitle: market.subtitle,
+            yes_sub_title: market.yes_sub_title,
+            no_sub_title: market.no_sub_title,
+            status: market.status,
+            yes_bid_dollars: market.yes_bid_dollars,
+            yes_ask_dollars: market.yes_ask_dollars,
+            no_bid_dollars: market.no_bid_dollars,
+            no_ask_dollars: market.no_ask_dollars,
+            last_price_dollars: market.last_price_dollars,
+            volume_fp: market.volume_fp,
+            volume_24h_fp: market.volume_24h_fp,
+            open_interest_fp: market.open_interest_fp,
+            liquidity_dollars: market.liquidity_dollars,
+            close_time: market.close_time,
+            expected_expiration_time: market.expected_expiration_time,
+            occurrence_datetime: market.occurrence_datetime,
+            floor_strike: market.floor_strike,
+            cap_strike: market.cap_strike,
+            functional_strike: market.functional_strike
+          });
+
+          let payload;
+          let lastError = "Kalshi did not respond.";
+          for (let attempt = 0; attempt < 4; attempt += 1) {
+            const response = await fetch(API_URL, {
+              headers: { Accept: "application/json", "User-Agent": "Matts-Kalshi-Public-Feed/1.0" }
+            });
+            if (response.ok) {
+              payload = await response.json();
+              break;
+            }
+            lastError = `Kalshi returned ${response.status}.`;
+            if (response.status !== 429 || attempt === 3) break;
+            await wait(1_000 * (2 ** attempt));
+          }
+
+          if (!payload) throw new Error(lastError);
+          const markets = Array.isArray(payload.markets)
+            ? payload.markets.filter(isTarget).map(publicFields)
+            : [];
+          if (!markets.length) {
+            throw new Error("No matching football, soccer, or UFC markets; preserving the last good feed.");
+          }
+
+          const output = {
+            schema_version: 1,
+            fetched_at: new Date().toISOString(),
+            source: "Kalshi public Trade API",
+            target_series: TARGET_SERIES,
+            market_count: markets.length,
+            markets
+          };
+          await mkdir("data", { recursive: true });
+          await writeFile("data/markets.json.tmp", `${JSON.stringify(output, null, 2)}\n`, "utf8");
+          await rename("data/markets.json.tmp", "data/markets.json");
+          console.log(`Saved ${markets.length} public sports markets.`);
+          NODE
+
+      - name: Publish changed feed
+        shell: bash
+        run: |
+          if git diff --quiet -- data/markets.json && git ls-files --error-unmatch data/markets.json >/dev/null 2>&1; then
+            echo "Feed is already current."
+            exit 0
+          fi
+          git config user.name "Kalshi Feed Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/markets.json
+          git commit -m "Refresh public sports markets"
+          git push
