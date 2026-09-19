@@ -26,7 +26,7 @@ jobs:
           node --input-type=module <<'NODE'
           import { mkdir, rename, writeFile } from "node:fs/promises";
 
-          const API_BASE = "https://external-api.kalshi.com/trade-api/v2/markets";
+          const API_BASE = "https://api.elections.kalshi.com/trade-api/v2/events";
           const TARGET_SERIES = [
             "KXNFLGAME", "KXNFLSPREAD", "KXNFLTOTAL",
             "KXNCAAFGAME", "KXNCAAFSPREAD", "KXNCAAFTOTAL",
@@ -39,9 +39,12 @@ jobs:
           const isTarget = (market) => TARGET_SERIES.some((series) =>
             String(market?.event_ticker || "").startsWith(`${series}-`)
           );
-          const publicFields = (market) => ({
+          const publicFields = (market, event) => ({
             ticker: market.ticker,
             event_ticker: market.event_ticker,
+            event_title: event.title,
+            event_sub_title: event.sub_title,
+            event_mutually_exclusive: event.mutually_exclusive,
             title: market.title,
             subtitle: market.subtitle,
             yes_sub_title: market.yes_sub_title,
@@ -64,16 +67,17 @@ jobs:
             functional_strike: market.functional_strike
           });
 
-          async function fetchSeries(series) {
+          async function fetchPage(series, cursor = "") {
             const url = new URL(API_BASE);
             url.searchParams.set("series_ticker", series);
             url.searchParams.set("status", "open");
-            url.searchParams.set("mve_filter", "exclude");
-            url.searchParams.set("limit", "1000");
+            url.searchParams.set("with_nested_markets", "true");
+            url.searchParams.set("limit", "200");
+            if (cursor) url.searchParams.set("cursor", cursor);
             let lastError = `${series}: Kalshi did not respond.`;
             for (let attempt = 0; attempt < 4; attempt += 1) {
               const response = await fetch(url, {
-                headers: { Accept: "application/json", "User-Agent": "Matts-Kalshi-Public-Feed/1.1" }
+                headers: { Accept: "application/json", "User-Agent": "Matts-Kalshi-Public-Feed/1.2" }
               });
               if (response.ok) return response.json();
               lastError = `${series}: Kalshi returned ${response.status}.`;
@@ -83,15 +87,30 @@ jobs:
             throw new Error(lastError);
           }
 
+          async function fetchSeries(series) {
+            const events = [];
+            let cursor = "";
+            for (let page = 0; page < 10; page += 1) {
+              const payload = await fetchPage(series, cursor);
+              if (Array.isArray(payload.events)) events.push(...payload.events);
+              cursor = typeof payload.cursor === "string" ? payload.cursor : "";
+              if (!cursor) break;
+              await wait(500);
+            }
+            return events;
+          }
+
           const collected = [];
           const seriesCounts = {};
           const seriesErrors = {};
           for (const series of TARGET_SERIES) {
             try {
-              const payload = await fetchSeries(series);
-              const matches = Array.isArray(payload.markets)
-                ? payload.markets.filter(isTarget)
-                : [];
+              const events = await fetchSeries(series);
+              const matches = events.flatMap((event) =>
+                Array.isArray(event.markets)
+                  ? event.markets.filter(isTarget).map((market) => publicFields(market, event))
+                  : []
+              );
               seriesCounts[series] = matches.length;
               collected.push(...matches);
             } catch (error) {
@@ -102,13 +121,13 @@ jobs:
 
           const markets = Array.from(
             new Map(collected.map((market) => [market.ticker, market])).values()
-          ).map(publicFields);
+          );
           if (!markets.length) {
             throw new Error("No matching football, soccer, or UFC markets; preserving the last good feed.");
           }
 
           const output = {
-            schema_version: 1,
+            schema_version: 2,
             fetched_at: new Date().toISOString(),
             source: "Kalshi public Trade API",
             target_series: TARGET_SERIES,
