@@ -26,7 +26,7 @@ jobs:
           node --input-type=module <<'NODE'
           import { mkdir, rename, writeFile } from "node:fs/promises";
 
-          const API_URL = "https://external-api.kalshi.com/trade-api/v2/markets?status=open&mve_filter=exclude&limit=1000";
+          const API_BASE = "https://external-api.kalshi.com/trade-api/v2/markets";
           const TARGET_SERIES = [
             "KXNFLGAME", "KXNFLSPREAD", "KXNFLTOTAL",
             "KXNCAAFGAME", "KXNCAAFSPREAD", "KXNCAAFTOTAL",
@@ -64,25 +64,45 @@ jobs:
             functional_strike: market.functional_strike
           });
 
-          let payload;
-          let lastError = "Kalshi did not respond.";
-          for (let attempt = 0; attempt < 4; attempt += 1) {
-            const response = await fetch(API_URL, {
-              headers: { Accept: "application/json", "User-Agent": "Matts-Kalshi-Public-Feed/1.0" }
-            });
-            if (response.ok) {
-              payload = await response.json();
-              break;
+          async function fetchSeries(series) {
+            const url = new URL(API_BASE);
+            url.searchParams.set("series_ticker", series);
+            url.searchParams.set("status", "open");
+            url.searchParams.set("mve_filter", "exclude");
+            url.searchParams.set("limit", "1000");
+            let lastError = `${series}: Kalshi did not respond.`;
+            for (let attempt = 0; attempt < 4; attempt += 1) {
+              const response = await fetch(url, {
+                headers: { Accept: "application/json", "User-Agent": "Matts-Kalshi-Public-Feed/1.1" }
+              });
+              if (response.ok) return response.json();
+              lastError = `${series}: Kalshi returned ${response.status}.`;
+              if (response.status !== 429 || attempt === 3) break;
+              await wait(1_500 * (2 ** attempt));
             }
-            lastError = `Kalshi returned ${response.status}.`;
-            if (response.status !== 429 || attempt === 3) break;
-            await wait(1_000 * (2 ** attempt));
+            throw new Error(lastError);
           }
 
-          if (!payload) throw new Error(lastError);
-          const markets = Array.isArray(payload.markets)
-            ? payload.markets.filter(isTarget).map(publicFields)
-            : [];
+          const collected = [];
+          const seriesCounts = {};
+          const seriesErrors = {};
+          for (const series of TARGET_SERIES) {
+            try {
+              const payload = await fetchSeries(series);
+              const matches = Array.isArray(payload.markets)
+                ? payload.markets.filter(isTarget)
+                : [];
+              seriesCounts[series] = matches.length;
+              collected.push(...matches);
+            } catch (error) {
+              seriesErrors[series] = error instanceof Error ? error.message : String(error);
+            }
+            await wait(750);
+          }
+
+          const markets = Array.from(
+            new Map(collected.map((market) => [market.ticker, market])).values()
+          ).map(publicFields);
           if (!markets.length) {
             throw new Error("No matching football, soccer, or UFC markets; preserving the last good feed.");
           }
@@ -92,6 +112,8 @@ jobs:
             fetched_at: new Date().toISOString(),
             source: "Kalshi public Trade API",
             target_series: TARGET_SERIES,
+            series_counts: seriesCounts,
+            series_errors: seriesErrors,
             market_count: markets.length,
             markets
           };
