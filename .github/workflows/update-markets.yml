@@ -30,6 +30,7 @@ jobs:
           const TARGET_SERIES = [
             "KXNFLGAME", "KXNFLSPREAD", "KXNFLTOTAL",
             "KXNCAAFGAME", "KXNCAAFSPREAD", "KXNCAAFTOTAL",
+            "KXMLBGAME", "KXMLBSPREAD", "KXMLBTOTAL",
             "KXEPLGAME", "KXLALIGAGAME", "KXBUNDESLIGAGAME",
             "KXSERIEAGAME", "KXLIGUE1GAME",
             "KXUFCFIGHT", "KXUFCMOV", "KXUFCROUNDS"
@@ -123,7 +124,7 @@ jobs:
             new Map(collected.map((market) => [market.ticker, market])).values()
           );
           if (!markets.length) {
-            throw new Error("No matching football, soccer, or UFC markets; preserving the last good feed.");
+            throw new Error("No matching football, baseball, soccer, or UFC markets; preserving the last good feed.");
           }
 
           const output = {
