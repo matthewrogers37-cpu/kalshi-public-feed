@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/update-markets.yml
 
 permissions:
   contents: write
@@ -15,7 +18,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 6
     steps:
       - name: Check out feed
         uses: actions/checkout@v4
@@ -29,6 +32,8 @@ jobs:
           const API_BASE = "https://api.elections.kalshi.com/trade-api/v2/events";
           const TARGET_SERIES = [
             "KXNFLGAME", "KXNFLSPREAD", "KXNFLTOTAL",
+            "KXNFLPASSYDS", "KXNFLRSHYDS", "KXNFLRECYDS", "KXNFLREC",
+            "KXNFLTD", "KXNFLPASSTDS", "KXNFLPASSINT",
             "KXNCAAFGAME", "KXNCAAFSPREAD", "KXNCAAFTOTAL",
             "KXMLBGAME", "KXMLBSPREAD", "KXMLBTOTAL",
             "KXEPLGAME", "KXLALIGAGAME", "KXBUNDESLIGAGAME",
@@ -51,6 +56,9 @@ jobs:
             yes_sub_title: market.yes_sub_title,
             no_sub_title: market.no_sub_title,
             status: market.status,
+            result: market.result,
+            settlement_value_dollars: market.settlement_value_dollars,
+            custom_strike: market.custom_strike,
             yes_bid_dollars: market.yes_bid_dollars,
             yes_ask_dollars: market.yes_ask_dollars,
             no_bid_dollars: market.no_bid_dollars,
@@ -127,8 +135,81 @@ jobs:
             throw new Error("No matching football, baseball, soccer, or UFC markets; preserving the last good feed.");
           }
 
+          const comboCollections = [];
+          let comboCursor = "";
+          for (let page = 0; page < 10; page++) {
+            const url = new URL("https://api.elections.kalshi.com/trade-api/v2/multivariate_event_collections");
+            url.searchParams.set("status", "open");
+            url.searchParams.set("limit", "200");
+            if (comboCursor) url.searchParams.set("cursor", comboCursor);
+            const response = await fetch(url, { headers: { Accept: "application/json" }, signal: AbortSignal.timeout(15000) });
+            if (!response.ok) throw new Error(`Combo rules returned ${response.status}; preserving the last verified feed.`);
+            const payload = await response.json();
+            if (!Array.isArray(payload.multivariate_contracts)) throw new Error("Invalid combo rules.");
+            comboCollections.push(...payload.multivariate_contracts.map((collection) => ({
+              collection_ticker: collection.collection_ticker,
+              series_ticker: collection.series_ticker,
+              associated_events: collection.associated_events,
+              associated_event_tickers: collection.associated_event_tickers,
+              is_all_yes: collection.is_all_yes,
+              is_single_market_per_event: collection.is_single_market_per_event,
+              size_min: collection.size_min,
+              size_max: collection.size_max
+            })));
+            comboCursor = payload.cursor || "";
+            if (!comboCursor) break;
+          }
+          if (comboCursor) throw new Error("Combo rule listing was incomplete.");
+
+          // Official start times prevent the daily record from using games
+          // already in progress. Missing schedules never imply eligibility.
+          const milestones = [];
+          let milestoneCursor = "";
+          for (let page = 0; page < 5; page++) {
+            const url = new URL("https://api.elections.kalshi.com/trade-api/v2/milestones");
+            url.searchParams.set("category", "Sports");
+            url.searchParams.set("minimum_start_date", new Date().toISOString());
+            url.searchParams.set("limit", "500");
+            if (milestoneCursor) url.searchParams.set("cursor", milestoneCursor);
+            const response = await fetch(url, {signal:AbortSignal.timeout(15000)});
+            if (!response.ok) throw new Error("Game start times could not be verified.");
+            const payload = await response.json();
+            for (const item of payload.milestones || []) {
+              const tickers = [...(item.related_event_tickers || []), ...(item.primary_event_tickers || [])]
+                .filter(ticker => TARGET_SERIES.includes(ticker.split("-")[0]));
+              if (tickers.length) milestones.push({start_date:item.start_date,related_event_tickers:[...new Set(tickers)]});
+            }
+            milestoneCursor = payload.cursor || "";
+            if (!milestoneCursor) break;
+          }
+
+          const trackedResults = [];
+          let resultError = null;
+          try {
+            const tracking = await fetch("https://kalshi-parlay-lab.glitchedlife.chatgpt.site/api/agent-record?pending=1", {signal:AbortSignal.timeout(15000)});
+            if (!tracking.ok) throw new Error("Daily record is not available yet.");
+            const pending = await tracking.json();
+            const tickers = [...new Set((pending.tickers || []).filter(t => typeof t === "string" && /^[A-Z0-9_-]{4,120}$/.test(t)))];
+            for (let start = 0; start < tickers.length; start += 50) {
+              const url = new URL("https://api.elections.kalshi.com/trade-api/v2/markets");
+              url.searchParams.set("tickers", tickers.slice(start, start + 50).join(","));
+              url.searchParams.set("limit", "200");
+              const response = await fetch(url, {signal:AbortSignal.timeout(15000)});
+              if (!response.ok) throw new Error("Some official settlements are waiting for another refresh.");
+              const payload = await response.json();
+              trackedResults.push(...(payload.markets || []).map(m => ({
+                ticker:m.ticker,status:m.status,result:m.result,settlement_value_dollars:m.settlement_value_dollars,updated_time:m.updated_time
+              })));
+              await wait(500);
+            }
+          } catch(error) { resultError = error.message; }
+
           const output = {
-            schema_version: 2,
+            schema_version: 4,
+            combo_collections: comboCollections,
+            milestones,
+            tracked_results: trackedResults,
+            result_error: resultError,
             fetched_at: new Date().toISOString(),
             source: "Kalshi public Trade API",
             target_series: TARGET_SERIES,
