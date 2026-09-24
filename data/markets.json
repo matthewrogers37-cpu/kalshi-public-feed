@@ -2422,6 +2422,16 @@
         },
         {
           "active_quoters": [],
+          "is_yes_only": false,
+          "ticker": "KXMLBKS-26SEP241435NYMTEX"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "ticker": "KXMLBOUTS-26SEP241435NYMTEX"
+        },
+        {
+          "active_quoters": [],
           "is_yes_only": true,
           "size_max": 1,
           "ticker": "KXMLBGAME-26SEP241510AZCOL"
@@ -11257,36 +11267,6 @@
           "active_quoters": [],
           "is_yes_only": true,
           "size_max": 1,
-          "ticker": "KXATPMATCH-26SEP21YUNZHE"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": true,
-          "size_max": 1,
-          "ticker": "KXATPSETWINNER-26SEP21YUNZHE-1"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": true,
-          "size_max": 1,
-          "ticker": "KXATPSETWINNER-26SEP21YUNZHE-2"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXATPGTOTAL-26SEP21YUNZHE"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": true,
-          "size_max": 1,
-          "ticker": "KXATPEXACTMATCH-26SEP21YUNZHE"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": true,
-          "size_max": 1,
           "ticker": "KXATPMATCH-26SEP21BELMAJ"
         },
         {
@@ -11312,6 +11292,36 @@
           "is_yes_only": true,
           "size_max": 1,
           "ticker": "KXATPEXACTMATCH-26SEP21BELMAJ"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXATPMATCH-26SEP21YUNZHE"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXATPSETWINNER-26SEP21YUNZHE-1"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXATPSETWINNER-26SEP21YUNZHE-2"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXATPGTOTAL-26SEP21YUNZHE"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXATPEXACTMATCH-26SEP21YUNZHE"
         },
         {
           "active_quoters": [],
@@ -12127,6 +12137,24 @@
           "active_quoters": [],
           "is_yes_only": true,
           "size_max": 1,
+          "ticker": "KXWTAMATCH-26SEP24BONRUS"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXWTASETWINNER-26SEP24BONRUS-1"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXWTASETWINNER-26SEP24BONRUS-2"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
           "ticker": "KXWTAMATCH-26SEP24ANDFER"
         },
         {
@@ -12559,31 +12587,19 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24MORHUR"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
           "ticker": "KXITFWMATCH-26SEP24VALPET"
         },
         {
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFDOUBLES-26SEP24BINPANLIXZOU"
+          "ticker": "KXITFWMATCH-26SEP24YESOKT"
         },
         {
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24NORCON"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24SINWAL"
+          "ticker": "KXITFMATCH-26SEP24VANFER"
         },
         {
           "active_quoters": [],
@@ -12607,19 +12623,25 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24VANFER"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFWMATCH-26SEP24YESOKT"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24DEMLOK"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24MORHUR"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24GSCMON"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24SINWAL"
         },
         {
           "active_quoters": [],
@@ -12643,31 +12665,7 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFDOUBLES-26SEP24CATFLOBAREHR"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24CHEDIM"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFWMATCH-26SEP24MILSAC"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24GSCMON"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFWDOUBLES-26SEP24KALKICKEMSAL"
         },
         {
           "active_quoters": [],
@@ -12680,12 +12678,6 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24RECKUS"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24PETCER"
         },
         {
           "active_quoters": [],
@@ -12704,6 +12696,24 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24DOMBEK"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24NORCON"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFWMATCH-26SEP24MILSAC"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFWDOUBLES-26SEP24KALKICKEMSAL"
         },
         {
           "active_quoters": [],
@@ -12734,6 +12744,18 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24EHAJUB"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFDOUBLES-26SEP24CATFLOBAREHR"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFDOUBLES-26SEP24BINPANLIXZOU"
         },
         {
           "active_quoters": [],
@@ -12799,6 +12821,12 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24PETCER"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24LUMMAL"
         },
         {
@@ -12817,6 +12845,12 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24MADSAB"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
           "ticker": "KXITFDOUBLES-26SEP24BOSFIODERPAA"
         },
         {
@@ -12829,12 +12863,6 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24MADSAB"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24NAGTHE"
         },
         {
@@ -12842,12 +12870,6 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24MARPUJ"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24DELKIR"
         },
         {
           "active_quoters": [],
@@ -12872,12 +12894,6 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24GARCAM"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24PIEIVA"
         },
         {
           "active_quoters": [],
@@ -12985,6 +13001,12 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24DELKIR"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24FILMEH"
         },
         {
@@ -13016,6 +13038,12 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24DOMHER"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24PIEIVA"
         },
         {
           "active_quoters": [],
@@ -14505,6 +14533,8 @@
         "KXMLBF5TOTAL-26SEP241435NYMTEX",
         "KXMLBF5-26SEP241435NYMTEX",
         "KXMLBRFI-26SEP241435NYMTEX",
+        "KXMLBKS-26SEP241435NYMTEX",
+        "KXMLBOUTS-26SEP241435NYMTEX",
         "KXMLBGAME-26SEP241510AZCOL",
         "KXMLBSPREAD-26SEP241510AZCOL",
         "KXMLBF5SPREAD-26SEP241510AZCOL",
@@ -15986,16 +16016,16 @@
         "KXATPSETWINNER-26SEP21DUCSON-2",
         "KXATPGTOTAL-26SEP21DUCSON",
         "KXATPEXACTMATCH-26SEP21DUCSON",
-        "KXATPMATCH-26SEP21YUNZHE",
-        "KXATPSETWINNER-26SEP21YUNZHE-1",
-        "KXATPSETWINNER-26SEP21YUNZHE-2",
-        "KXATPGTOTAL-26SEP21YUNZHE",
-        "KXATPEXACTMATCH-26SEP21YUNZHE",
         "KXATPMATCH-26SEP21BELMAJ",
         "KXATPSETWINNER-26SEP21BELMAJ-1",
         "KXATPSETWINNER-26SEP21BELMAJ-2",
         "KXATPGTOTAL-26SEP21BELMAJ",
         "KXATPEXACTMATCH-26SEP21BELMAJ",
+        "KXATPMATCH-26SEP21YUNZHE",
+        "KXATPSETWINNER-26SEP21YUNZHE-1",
+        "KXATPSETWINNER-26SEP21YUNZHE-2",
+        "KXATPGTOTAL-26SEP21YUNZHE",
+        "KXATPEXACTMATCH-26SEP21YUNZHE",
         "KXATPMATCH-26SEP21SHAMAN",
         "KXATPSETWINNER-26SEP21SHAMAN-1",
         "KXATPSETWINNER-26SEP21SHAMAN-2",
@@ -16131,6 +16161,9 @@
         "KXWTASETWINNER-26SEP24MERCHW-2",
         "KXWTAGTOTAL-26SEP24MERCHW",
         "KXWTADOUBLES-26SEP23KATPERLANPRO",
+        "KXWTAMATCH-26SEP24BONRUS",
+        "KXWTASETWINNER-26SEP24BONRUS-1",
+        "KXWTASETWINNER-26SEP24BONRUS-2",
         "KXWTAMATCH-26SEP24ANDFER",
         "KXWTASETWINNER-26SEP24ANDFER-1",
         "KXWTASETWINNER-26SEP24ANDFER-2",
@@ -16203,36 +16236,35 @@
         "KXITFMATCH-26SEP24FELIBR",
         "KXITFMATCH-26SEP24DZHDUH",
         "KXITFMATCH-26SEP24CASZAK",
-        "KXITFMATCH-26SEP24MORHUR",
         "KXITFWMATCH-26SEP24VALPET",
-        "KXITFDOUBLES-26SEP24BINPANLIXZOU",
-        "KXITFMATCH-26SEP24NORCON",
-        "KXITFMATCH-26SEP24SINWAL",
+        "KXITFWMATCH-26SEP24YESOKT",
+        "KXITFMATCH-26SEP24VANFER",
         "KXITFWMATCH-26SEP24KOVPIS",
         "KXITFWMATCH-26SEP24STEMET",
         "KXITFWMATCH-26SEP24PAGLON",
-        "KXITFMATCH-26SEP24VANFER",
-        "KXITFWMATCH-26SEP24YESOKT",
         "KXITFMATCH-26SEP24DEMLOK",
+        "KXITFMATCH-26SEP24MORHUR",
+        "KXITFMATCH-26SEP24GSCMON",
+        "KXITFMATCH-26SEP24SINWAL",
         "KXITFMATCH-26SEP24GRIFUM",
         "KXITFWMATCH-26SEP24SEDGUT",
         "KXITFWMATCH-26SEP24LIZSAM",
-        "KXITFDOUBLES-26SEP24CATFLOBAREHR",
         "KXITFMATCH-26SEP24CHEDIM",
-        "KXITFWMATCH-26SEP24MILSAC",
-        "KXITFMATCH-26SEP24GSCMON",
-        "KXITFWDOUBLES-26SEP24KALKICKEMSAL",
         "KXITFMATCH-26SEP24BAUVRT",
         "KXITFMATCH-26SEP24RECKUS",
-        "KXITFMATCH-26SEP24PETCER",
         "KXITFMATCH-26SEP24COVSEI",
         "KXITFMATCH-26SEP24VANTHO",
         "KXITFMATCH-26SEP24DOMBEK",
+        "KXITFMATCH-26SEP24NORCON",
+        "KXITFWMATCH-26SEP24MILSAC",
+        "KXITFWDOUBLES-26SEP24KALKICKEMSAL",
         "KXITFWMATCH-26SEP24BUCSEV",
         "KXITFWMATCH-26SEP24POPMAR",
         "KXITFWMATCH-26SEP24BIRHER",
         "KXITFMATCH-26SEP24SIN2WAL2",
         "KXITFMATCH-26SEP24EHAJUB",
+        "KXITFDOUBLES-26SEP24CATFLOBAREHR",
+        "KXITFDOUBLES-26SEP24BINPANLIXZOU",
         "KXITFWMATCH-26SEP24GARSTA",
         "KXITFWMATCH-26SEP24SAKENC",
         "KXITFWMATCH-26SEP24YANMAI",
@@ -16243,20 +16275,19 @@
         "KXITFWMATCH-26SEP24BOUKUR",
         "KXITFMATCH-26SEP24MAKBRA",
         "KXITFWMATCH-26SEP24MIXSEM",
+        "KXITFMATCH-26SEP24PETCER",
         "KXITFMATCH-26SEP24LUMMAL",
         "KXITFWMATCH-26SEP24RUCSAS",
         "KXITFWMATCH-26SEP24DEKKRO",
+        "KXITFMATCH-26SEP24MADSAB",
         "KXITFDOUBLES-26SEP24BOSFIODERPAA",
         "KXITFMATCH-26SEP24POPMAN",
-        "KXITFMATCH-26SEP24MADSAB",
         "KXITFMATCH-26SEP24NAGTHE",
         "KXITFMATCH-26SEP24MARPUJ",
-        "KXITFMATCH-26SEP24DELKIR",
         "KXITFMATCH-26SEP24TABMUR",
         "KXITFMATCH-26SEP24CIZTSI",
         "KXITFWDOUBLES-26SEP24ADEPAWRABMAR",
         "KXITFMATCH-26SEP24GARCAM",
-        "KXITFMATCH-26SEP24PIEIVA",
         "KXITFWDOUBLES-26SEP24MERYEMBOESZA",
         "KXITFMATCH-26SEP24MOLSHY",
         "KXITFWMATCH-26SEP24ABOGOL",
@@ -16274,12 +16305,14 @@
         "KXITFDOUBLES-26SEP24BERPRIGIOMAR",
         "KXITFWMATCH-26SEP24CHEGAR",
         "KXITFWMATCH-26SEP24FERGEN",
+        "KXITFMATCH-26SEP24DELKIR",
         "KXITFMATCH-26SEP24FILMEH",
         "KXITFDOUBLES-26SEP24KRAPORCHODUH",
         "KXITFDOUBLES-26SEP24KOLSAVALEAZI",
         "KXITFMATCH-26SEP24COLVER",
         "KXITFMATCH-26SEP24WEECOL",
         "KXITFMATCH-26SEP24DOMHER",
+        "KXITFMATCH-26SEP24PIEIVA",
         "KXITFMATCH-26SEP24OGUDON",
         "KXITFWMATCH-26SEP24DAPDOT",
         "KXITFMATCH-26SEP24MAKMAR",
@@ -18884,6 +18917,16 @@
         },
         {
           "active_quoters": [],
+          "is_yes_only": false,
+          "ticker": "KXMLBKS-26SEP241435NYMTEX"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "ticker": "KXMLBOUTS-26SEP241435NYMTEX"
+        },
+        {
+          "active_quoters": [],
           "is_yes_only": true,
           "size_max": 1,
           "ticker": "KXMLBGAME-26SEP241510AZCOL"
@@ -27719,36 +27762,6 @@
           "active_quoters": [],
           "is_yes_only": true,
           "size_max": 1,
-          "ticker": "KXATPMATCH-26SEP21YUNZHE"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": true,
-          "size_max": 1,
-          "ticker": "KXATPSETWINNER-26SEP21YUNZHE-1"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": true,
-          "size_max": 1,
-          "ticker": "KXATPSETWINNER-26SEP21YUNZHE-2"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXATPGTOTAL-26SEP21YUNZHE"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": true,
-          "size_max": 1,
-          "ticker": "KXATPEXACTMATCH-26SEP21YUNZHE"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": true,
-          "size_max": 1,
           "ticker": "KXATPMATCH-26SEP21BELMAJ"
         },
         {
@@ -27774,6 +27787,36 @@
           "is_yes_only": true,
           "size_max": 1,
           "ticker": "KXATPEXACTMATCH-26SEP21BELMAJ"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXATPMATCH-26SEP21YUNZHE"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXATPSETWINNER-26SEP21YUNZHE-1"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXATPSETWINNER-26SEP21YUNZHE-2"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXATPGTOTAL-26SEP21YUNZHE"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXATPEXACTMATCH-26SEP21YUNZHE"
         },
         {
           "active_quoters": [],
@@ -28589,6 +28632,24 @@
           "active_quoters": [],
           "is_yes_only": true,
           "size_max": 1,
+          "ticker": "KXWTAMATCH-26SEP24BONRUS"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXWTASETWINNER-26SEP24BONRUS-1"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXWTASETWINNER-26SEP24BONRUS-2"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
           "ticker": "KXWTAMATCH-26SEP24ANDFER"
         },
         {
@@ -29021,31 +29082,19 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24MORHUR"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
           "ticker": "KXITFWMATCH-26SEP24VALPET"
         },
         {
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFDOUBLES-26SEP24BINPANLIXZOU"
+          "ticker": "KXITFWMATCH-26SEP24YESOKT"
         },
         {
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24NORCON"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24SINWAL"
+          "ticker": "KXITFMATCH-26SEP24VANFER"
         },
         {
           "active_quoters": [],
@@ -29069,19 +29118,25 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24VANFER"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFWMATCH-26SEP24YESOKT"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24DEMLOK"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24MORHUR"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24GSCMON"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24SINWAL"
         },
         {
           "active_quoters": [],
@@ -29105,31 +29160,7 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFDOUBLES-26SEP24CATFLOBAREHR"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24CHEDIM"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFWMATCH-26SEP24MILSAC"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24GSCMON"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFWDOUBLES-26SEP24KALKICKEMSAL"
         },
         {
           "active_quoters": [],
@@ -29142,12 +29173,6 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24RECKUS"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24PETCER"
         },
         {
           "active_quoters": [],
@@ -29166,6 +29191,24 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24DOMBEK"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24NORCON"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFWMATCH-26SEP24MILSAC"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFWDOUBLES-26SEP24KALKICKEMSAL"
         },
         {
           "active_quoters": [],
@@ -29196,6 +29239,18 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24EHAJUB"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFDOUBLES-26SEP24CATFLOBAREHR"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFDOUBLES-26SEP24BINPANLIXZOU"
         },
         {
           "active_quoters": [],
@@ -29261,6 +29316,12 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24PETCER"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24LUMMAL"
         },
         {
@@ -29279,6 +29340,12 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24MADSAB"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
           "ticker": "KXITFDOUBLES-26SEP24BOSFIODERPAA"
         },
         {
@@ -29291,12 +29358,6 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24MADSAB"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24NAGTHE"
         },
         {
@@ -29304,12 +29365,6 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24MARPUJ"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24DELKIR"
         },
         {
           "active_quoters": [],
@@ -29334,12 +29389,6 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24GARCAM"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24PIEIVA"
         },
         {
           "active_quoters": [],
@@ -29447,6 +29496,12 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24DELKIR"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24FILMEH"
         },
         {
@@ -29478,6 +29533,12 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24DOMHER"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24PIEIVA"
         },
         {
           "active_quoters": [],
@@ -30967,6 +31028,8 @@
         "KXMLBF5TOTAL-26SEP241435NYMTEX",
         "KXMLBF5-26SEP241435NYMTEX",
         "KXMLBRFI-26SEP241435NYMTEX",
+        "KXMLBKS-26SEP241435NYMTEX",
+        "KXMLBOUTS-26SEP241435NYMTEX",
         "KXMLBGAME-26SEP241510AZCOL",
         "KXMLBSPREAD-26SEP241510AZCOL",
         "KXMLBF5SPREAD-26SEP241510AZCOL",
@@ -32448,16 +32511,16 @@
         "KXATPSETWINNER-26SEP21DUCSON-2",
         "KXATPGTOTAL-26SEP21DUCSON",
         "KXATPEXACTMATCH-26SEP21DUCSON",
-        "KXATPMATCH-26SEP21YUNZHE",
-        "KXATPSETWINNER-26SEP21YUNZHE-1",
-        "KXATPSETWINNER-26SEP21YUNZHE-2",
-        "KXATPGTOTAL-26SEP21YUNZHE",
-        "KXATPEXACTMATCH-26SEP21YUNZHE",
         "KXATPMATCH-26SEP21BELMAJ",
         "KXATPSETWINNER-26SEP21BELMAJ-1",
         "KXATPSETWINNER-26SEP21BELMAJ-2",
         "KXATPGTOTAL-26SEP21BELMAJ",
         "KXATPEXACTMATCH-26SEP21BELMAJ",
+        "KXATPMATCH-26SEP21YUNZHE",
+        "KXATPSETWINNER-26SEP21YUNZHE-1",
+        "KXATPSETWINNER-26SEP21YUNZHE-2",
+        "KXATPGTOTAL-26SEP21YUNZHE",
+        "KXATPEXACTMATCH-26SEP21YUNZHE",
         "KXATPMATCH-26SEP21SHAMAN",
         "KXATPSETWINNER-26SEP21SHAMAN-1",
         "KXATPSETWINNER-26SEP21SHAMAN-2",
@@ -32593,6 +32656,9 @@
         "KXWTASETWINNER-26SEP24MERCHW-2",
         "KXWTAGTOTAL-26SEP24MERCHW",
         "KXWTADOUBLES-26SEP23KATPERLANPRO",
+        "KXWTAMATCH-26SEP24BONRUS",
+        "KXWTASETWINNER-26SEP24BONRUS-1",
+        "KXWTASETWINNER-26SEP24BONRUS-2",
         "KXWTAMATCH-26SEP24ANDFER",
         "KXWTASETWINNER-26SEP24ANDFER-1",
         "KXWTASETWINNER-26SEP24ANDFER-2",
@@ -32665,36 +32731,35 @@
         "KXITFMATCH-26SEP24FELIBR",
         "KXITFMATCH-26SEP24DZHDUH",
         "KXITFMATCH-26SEP24CASZAK",
-        "KXITFMATCH-26SEP24MORHUR",
         "KXITFWMATCH-26SEP24VALPET",
-        "KXITFDOUBLES-26SEP24BINPANLIXZOU",
-        "KXITFMATCH-26SEP24NORCON",
-        "KXITFMATCH-26SEP24SINWAL",
+        "KXITFWMATCH-26SEP24YESOKT",
+        "KXITFMATCH-26SEP24VANFER",
         "KXITFWMATCH-26SEP24KOVPIS",
         "KXITFWMATCH-26SEP24STEMET",
         "KXITFWMATCH-26SEP24PAGLON",
-        "KXITFMATCH-26SEP24VANFER",
-        "KXITFWMATCH-26SEP24YESOKT",
         "KXITFMATCH-26SEP24DEMLOK",
+        "KXITFMATCH-26SEP24MORHUR",
+        "KXITFMATCH-26SEP24GSCMON",
+        "KXITFMATCH-26SEP24SINWAL",
         "KXITFMATCH-26SEP24GRIFUM",
         "KXITFWMATCH-26SEP24SEDGUT",
         "KXITFWMATCH-26SEP24LIZSAM",
-        "KXITFDOUBLES-26SEP24CATFLOBAREHR",
         "KXITFMATCH-26SEP24CHEDIM",
-        "KXITFWMATCH-26SEP24MILSAC",
-        "KXITFMATCH-26SEP24GSCMON",
-        "KXITFWDOUBLES-26SEP24KALKICKEMSAL",
         "KXITFMATCH-26SEP24BAUVRT",
         "KXITFMATCH-26SEP24RECKUS",
-        "KXITFMATCH-26SEP24PETCER",
         "KXITFMATCH-26SEP24COVSEI",
         "KXITFMATCH-26SEP24VANTHO",
         "KXITFMATCH-26SEP24DOMBEK",
+        "KXITFMATCH-26SEP24NORCON",
+        "KXITFWMATCH-26SEP24MILSAC",
+        "KXITFWDOUBLES-26SEP24KALKICKEMSAL",
         "KXITFWMATCH-26SEP24BUCSEV",
         "KXITFWMATCH-26SEP24POPMAR",
         "KXITFWMATCH-26SEP24BIRHER",
         "KXITFMATCH-26SEP24SIN2WAL2",
         "KXITFMATCH-26SEP24EHAJUB",
+        "KXITFDOUBLES-26SEP24CATFLOBAREHR",
+        "KXITFDOUBLES-26SEP24BINPANLIXZOU",
         "KXITFWMATCH-26SEP24GARSTA",
         "KXITFWMATCH-26SEP24SAKENC",
         "KXITFWMATCH-26SEP24YANMAI",
@@ -32705,20 +32770,19 @@
         "KXITFWMATCH-26SEP24BOUKUR",
         "KXITFMATCH-26SEP24MAKBRA",
         "KXITFWMATCH-26SEP24MIXSEM",
+        "KXITFMATCH-26SEP24PETCER",
         "KXITFMATCH-26SEP24LUMMAL",
         "KXITFWMATCH-26SEP24RUCSAS",
         "KXITFWMATCH-26SEP24DEKKRO",
+        "KXITFMATCH-26SEP24MADSAB",
         "KXITFDOUBLES-26SEP24BOSFIODERPAA",
         "KXITFMATCH-26SEP24POPMAN",
-        "KXITFMATCH-26SEP24MADSAB",
         "KXITFMATCH-26SEP24NAGTHE",
         "KXITFMATCH-26SEP24MARPUJ",
-        "KXITFMATCH-26SEP24DELKIR",
         "KXITFMATCH-26SEP24TABMUR",
         "KXITFMATCH-26SEP24CIZTSI",
         "KXITFWDOUBLES-26SEP24ADEPAWRABMAR",
         "KXITFMATCH-26SEP24GARCAM",
-        "KXITFMATCH-26SEP24PIEIVA",
         "KXITFWDOUBLES-26SEP24MERYEMBOESZA",
         "KXITFMATCH-26SEP24MOLSHY",
         "KXITFWMATCH-26SEP24ABOGOL",
@@ -32736,12 +32800,14 @@
         "KXITFDOUBLES-26SEP24BERPRIGIOMAR",
         "KXITFWMATCH-26SEP24CHEGAR",
         "KXITFWMATCH-26SEP24FERGEN",
+        "KXITFMATCH-26SEP24DELKIR",
         "KXITFMATCH-26SEP24FILMEH",
         "KXITFDOUBLES-26SEP24KRAPORCHODUH",
         "KXITFDOUBLES-26SEP24KOLSAVALEAZI",
         "KXITFMATCH-26SEP24COLVER",
         "KXITFMATCH-26SEP24WEECOL",
         "KXITFMATCH-26SEP24DOMHER",
+        "KXITFMATCH-26SEP24PIEIVA",
         "KXITFMATCH-26SEP24OGUDON",
         "KXITFWMATCH-26SEP24DAPDOT",
         "KXITFMATCH-26SEP24MAKMAR",
@@ -35346,6 +35412,16 @@
         },
         {
           "active_quoters": [],
+          "is_yes_only": false,
+          "ticker": "KXMLBKS-26SEP241435NYMTEX"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "ticker": "KXMLBOUTS-26SEP241435NYMTEX"
+        },
+        {
+          "active_quoters": [],
           "is_yes_only": true,
           "size_max": 1,
           "ticker": "KXMLBGAME-26SEP241510AZCOL"
@@ -44181,36 +44257,6 @@
           "active_quoters": [],
           "is_yes_only": true,
           "size_max": 1,
-          "ticker": "KXATPMATCH-26SEP21YUNZHE"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": true,
-          "size_max": 1,
-          "ticker": "KXATPSETWINNER-26SEP21YUNZHE-1"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": true,
-          "size_max": 1,
-          "ticker": "KXATPSETWINNER-26SEP21YUNZHE-2"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXATPGTOTAL-26SEP21YUNZHE"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": true,
-          "size_max": 1,
-          "ticker": "KXATPEXACTMATCH-26SEP21YUNZHE"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": true,
-          "size_max": 1,
           "ticker": "KXATPMATCH-26SEP21BELMAJ"
         },
         {
@@ -44236,6 +44282,36 @@
           "is_yes_only": true,
           "size_max": 1,
           "ticker": "KXATPEXACTMATCH-26SEP21BELMAJ"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXATPMATCH-26SEP21YUNZHE"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXATPSETWINNER-26SEP21YUNZHE-1"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXATPSETWINNER-26SEP21YUNZHE-2"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXATPGTOTAL-26SEP21YUNZHE"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXATPEXACTMATCH-26SEP21YUNZHE"
         },
         {
           "active_quoters": [],
@@ -45051,6 +45127,24 @@
           "active_quoters": [],
           "is_yes_only": true,
           "size_max": 1,
+          "ticker": "KXWTAMATCH-26SEP24BONRUS"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXWTASETWINNER-26SEP24BONRUS-1"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
+          "ticker": "KXWTASETWINNER-26SEP24BONRUS-2"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": true,
+          "size_max": 1,
           "ticker": "KXWTAMATCH-26SEP24ANDFER"
         },
         {
@@ -45483,31 +45577,19 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24MORHUR"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
           "ticker": "KXITFWMATCH-26SEP24VALPET"
         },
         {
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFDOUBLES-26SEP24BINPANLIXZOU"
+          "ticker": "KXITFWMATCH-26SEP24YESOKT"
         },
         {
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24NORCON"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24SINWAL"
+          "ticker": "KXITFMATCH-26SEP24VANFER"
         },
         {
           "active_quoters": [],
@@ -45531,19 +45613,25 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24VANFER"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFWMATCH-26SEP24YESOKT"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24DEMLOK"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24MORHUR"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24GSCMON"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24SINWAL"
         },
         {
           "active_quoters": [],
@@ -45567,31 +45655,7 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFDOUBLES-26SEP24CATFLOBAREHR"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24CHEDIM"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFWMATCH-26SEP24MILSAC"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24GSCMON"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFWDOUBLES-26SEP24KALKICKEMSAL"
         },
         {
           "active_quoters": [],
@@ -45604,12 +45668,6 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24RECKUS"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24PETCER"
         },
         {
           "active_quoters": [],
@@ -45628,6 +45686,24 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24DOMBEK"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24NORCON"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFWMATCH-26SEP24MILSAC"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFWDOUBLES-26SEP24KALKICKEMSAL"
         },
         {
           "active_quoters": [],
@@ -45658,6 +45734,18 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24EHAJUB"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFDOUBLES-26SEP24CATFLOBAREHR"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFDOUBLES-26SEP24BINPANLIXZOU"
         },
         {
           "active_quoters": [],
@@ -45723,6 +45811,12 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24PETCER"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24LUMMAL"
         },
         {
@@ -45741,6 +45835,12 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24MADSAB"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
           "ticker": "KXITFDOUBLES-26SEP24BOSFIODERPAA"
         },
         {
@@ -45753,12 +45853,6 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24MADSAB"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24NAGTHE"
         },
         {
@@ -45766,12 +45860,6 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24MARPUJ"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24DELKIR"
         },
         {
           "active_quoters": [],
@@ -45796,12 +45884,6 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24GARCAM"
-        },
-        {
-          "active_quoters": [],
-          "is_yes_only": false,
-          "size_max": 1,
-          "ticker": "KXITFMATCH-26SEP24PIEIVA"
         },
         {
           "active_quoters": [],
@@ -45909,6 +45991,12 @@
           "active_quoters": [],
           "is_yes_only": false,
           "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24DELKIR"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24FILMEH"
         },
         {
@@ -45940,6 +46028,12 @@
           "is_yes_only": false,
           "size_max": 1,
           "ticker": "KXITFMATCH-26SEP24DOMHER"
+        },
+        {
+          "active_quoters": [],
+          "is_yes_only": false,
+          "size_max": 1,
+          "ticker": "KXITFMATCH-26SEP24PIEIVA"
         },
         {
           "active_quoters": [],
@@ -47429,6 +47523,8 @@
         "KXMLBF5TOTAL-26SEP241435NYMTEX",
         "KXMLBF5-26SEP241435NYMTEX",
         "KXMLBRFI-26SEP241435NYMTEX",
+        "KXMLBKS-26SEP241435NYMTEX",
+        "KXMLBOUTS-26SEP241435NYMTEX",
         "KXMLBGAME-26SEP241510AZCOL",
         "KXMLBSPREAD-26SEP241510AZCOL",
         "KXMLBF5SPREAD-26SEP241510AZCOL",
@@ -48910,16 +49006,16 @@
         "KXATPSETWINNER-26SEP21DUCSON-2",
         "KXATPGTOTAL-26SEP21DUCSON",
         "KXATPEXACTMATCH-26SEP21DUCSON",
-        "KXATPMATCH-26SEP21YUNZHE",
-        "KXATPSETWINNER-26SEP21YUNZHE-1",
-        "KXATPSETWINNER-26SEP21YUNZHE-2",
-        "KXATPGTOTAL-26SEP21YUNZHE",
-        "KXATPEXACTMATCH-26SEP21YUNZHE",
         "KXATPMATCH-26SEP21BELMAJ",
         "KXATPSETWINNER-26SEP21BELMAJ-1",
         "KXATPSETWINNER-26SEP21BELMAJ-2",
         "KXATPGTOTAL-26SEP21BELMAJ",
         "KXATPEXACTMATCH-26SEP21BELMAJ",
+        "KXATPMATCH-26SEP21YUNZHE",
+        "KXATPSETWINNER-26SEP21YUNZHE-1",
+        "KXATPSETWINNER-26SEP21YUNZHE-2",
+        "KXATPGTOTAL-26SEP21YUNZHE",
+        "KXATPEXACTMATCH-26SEP21YUNZHE",
         "KXATPMATCH-26SEP21SHAMAN",
         "KXATPSETWINNER-26SEP21SHAMAN-1",
         "KXATPSETWINNER-26SEP21SHAMAN-2",
@@ -49055,6 +49151,9 @@
         "KXWTASETWINNER-26SEP24MERCHW-2",
         "KXWTAGTOTAL-26SEP24MERCHW",
         "KXWTADOUBLES-26SEP23KATPERLANPRO",
+        "KXWTAMATCH-26SEP24BONRUS",
+        "KXWTASETWINNER-26SEP24BONRUS-1",
+        "KXWTASETWINNER-26SEP24BONRUS-2",
         "KXWTAMATCH-26SEP24ANDFER",
         "KXWTASETWINNER-26SEP24ANDFER-1",
         "KXWTASETWINNER-26SEP24ANDFER-2",
@@ -49127,36 +49226,35 @@
         "KXITFMATCH-26SEP24FELIBR",
         "KXITFMATCH-26SEP24DZHDUH",
         "KXITFMATCH-26SEP24CASZAK",
-        "KXITFMATCH-26SEP24MORHUR",
         "KXITFWMATCH-26SEP24VALPET",
-        "KXITFDOUBLES-26SEP24BINPANLIXZOU",
-        "KXITFMATCH-26SEP24NORCON",
-        "KXITFMATCH-26SEP24SINWAL",
+        "KXITFWMATCH-26SEP24YESOKT",
+        "KXITFMATCH-26SEP24VANFER",
         "KXITFWMATCH-26SEP24KOVPIS",
         "KXITFWMATCH-26SEP24STEMET",
         "KXITFWMATCH-26SEP24PAGLON",
-        "KXITFMATCH-26SEP24VANFER",
-        "KXITFWMATCH-26SEP24YESOKT",
         "KXITFMATCH-26SEP24DEMLOK",
+        "KXITFMATCH-26SEP24MORHUR",
+        "KXITFMATCH-26SEP24GSCMON",
+        "KXITFMATCH-26SEP24SINWAL",
         "KXITFMATCH-26SEP24GRIFUM",
         "KXITFWMATCH-26SEP24SEDGUT",
         "KXITFWMATCH-26SEP24LIZSAM",
-        "KXITFDOUBLES-26SEP24CATFLOBAREHR",
         "KXITFMATCH-26SEP24CHEDIM",
-        "KXITFWMATCH-26SEP24MILSAC",
-        "KXITFMATCH-26SEP24GSCMON",
-        "KXITFWDOUBLES-26SEP24KALKICKEMSAL",
         "KXITFMATCH-26SEP24BAUVRT",
         "KXITFMATCH-26SEP24RECKUS",
-        "KXITFMATCH-26SEP24PETCER",
         "KXITFMATCH-26SEP24COVSEI",
         "KXITFMATCH-26SEP24VANTHO",
         "KXITFMATCH-26SEP24DOMBEK",
+        "KXITFMATCH-26SEP24NORCON",
+        "KXITFWMATCH-26SEP24MILSAC",
+        "KXITFWDOUBLES-26SEP24KALKICKEMSAL",
         "KXITFWMATCH-26SEP24BUCSEV",
         "KXITFWMATCH-26SEP24POPMAR",
         "KXITFWMATCH-26SEP24BIRHER",
         "KXITFMATCH-26SEP24SIN2WAL2",
         "KXITFMATCH-26SEP24EHAJUB",
+        "KXITFDOUBLES-26SEP24CATFLOBAREHR",
+        "KXITFDOUBLES-26SEP24BINPANLIXZOU",
         "KXITFWMATCH-26SEP24GARSTA",
         "KXITFWMATCH-26SEP24SAKENC",
         "KXITFWMATCH-26SEP24YANMAI",
@@ -49167,20 +49265,19 @@
         "KXITFWMATCH-26SEP24BOUKUR",
         "KXITFMATCH-26SEP24MAKBRA",
         "KXITFWMATCH-26SEP24MIXSEM",
+        "KXITFMATCH-26SEP24PETCER",
         "KXITFMATCH-26SEP24LUMMAL",
         "KXITFWMATCH-26SEP24RUCSAS",
         "KXITFWMATCH-26SEP24DEKKRO",
+        "KXITFMATCH-26SEP24MADSAB",
         "KXITFDOUBLES-26SEP24BOSFIODERPAA",
         "KXITFMATCH-26SEP24POPMAN",
-        "KXITFMATCH-26SEP24MADSAB",
         "KXITFMATCH-26SEP24NAGTHE",
         "KXITFMATCH-26SEP24MARPUJ",
-        "KXITFMATCH-26SEP24DELKIR",
         "KXITFMATCH-26SEP24TABMUR",
         "KXITFMATCH-26SEP24CIZTSI",
         "KXITFWDOUBLES-26SEP24ADEPAWRABMAR",
         "KXITFMATCH-26SEP24GARCAM",
-        "KXITFMATCH-26SEP24PIEIVA",
         "KXITFWDOUBLES-26SEP24MERYEMBOESZA",
         "KXITFMATCH-26SEP24MOLSHY",
         "KXITFWMATCH-26SEP24ABOGOL",
@@ -49198,12 +49295,14 @@
         "KXITFDOUBLES-26SEP24BERPRIGIOMAR",
         "KXITFWMATCH-26SEP24CHEGAR",
         "KXITFWMATCH-26SEP24FERGEN",
+        "KXITFMATCH-26SEP24DELKIR",
         "KXITFMATCH-26SEP24FILMEH",
         "KXITFDOUBLES-26SEP24KRAPORCHODUH",
         "KXITFDOUBLES-26SEP24KOLSAVALEAZI",
         "KXITFMATCH-26SEP24COLVER",
         "KXITFMATCH-26SEP24WEECOL",
         "KXITFMATCH-26SEP24DOMHER",
+        "KXITFMATCH-26SEP24PIEIVA",
         "KXITFMATCH-26SEP24OGUDON",
         "KXITFWMATCH-26SEP24DAPDOT",
         "KXITFMATCH-26SEP24MAKMAR",
@@ -51790,7 +51889,7 @@
   ],
   "tracked_results": [],
   "result_error": null,
-  "fetched_at": "2026-09-24T07:52:37.785Z",
+  "fetched_at": "2026-09-24T08:03:30.414Z",
   "source": "Kalshi public Trade API",
   "target_series": [
     "KXNFLGAME",
@@ -51867,7 +51966,7 @@
       "no_ask_dollars": "0.3100",
       "last_price_dollars": "0.7000",
       "volume_fp": "1281182.14",
-      "volume_24h_fp": "527302.57",
+      "volume_24h_fp": "526992.60",
       "open_interest_fp": "1005756.41",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T00:15:00Z",
@@ -51894,7 +51993,7 @@
       "no_ask_dollars": "0.7000",
       "last_price_dollars": "0.3100",
       "volume_fp": "628492.21",
-      "volume_24h_fp": "327193.53",
+      "volume_24h_fp": "326860.69",
       "open_interest_fp": "544566.06",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T00:15:00Z",
@@ -51948,7 +52047,7 @@
       "no_ask_dollars": "0.4200",
       "last_price_dollars": "0.5900",
       "volume_fp": "109933.33",
-      "volume_24h_fp": "16450.01",
+      "volume_24h_fp": "16443.43",
       "open_interest_fp": "98831.54",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52002,7 +52101,7 @@
       "no_ask_dollars": "0.3800",
       "last_price_dollars": "0.6300",
       "volume_fp": "172896.01",
-      "volume_24h_fp": "56726.21",
+      "volume_24h_fp": "56617.28",
       "open_interest_fp": "165266.02",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52029,7 +52128,7 @@
       "no_ask_dollars": "0.5800",
       "last_price_dollars": "0.4300",
       "volume_fp": "52065.06",
-      "volume_24h_fp": "12340.33",
+      "volume_24h_fp": "12286.32",
       "open_interest_fp": "47664.16",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52056,7 +52155,7 @@
       "no_ask_dollars": "0.4300",
       "last_price_dollars": "0.5800",
       "volume_fp": "38065.85",
-      "volume_24h_fp": "9666.61",
+      "volume_24h_fp": "9663.32",
       "open_interest_fp": "35397.65",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52083,7 +52182,7 @@
       "no_ask_dollars": "0.8600",
       "last_price_dollars": "0.1500",
       "volume_fp": "148371.40",
-      "volume_24h_fp": "36756.39",
+      "volume_24h_fp": "36699.72",
       "open_interest_fp": "110903.28",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52110,7 +52209,7 @@
       "no_ask_dollars": "0.1500",
       "last_price_dollars": "0.8600",
       "volume_fp": "680336.23",
-      "volume_24h_fp": "96828.76",
+      "volume_24h_fp": "96721.91",
       "open_interest_fp": "567952.79",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52137,7 +52236,7 @@
       "no_ask_dollars": "0.2500",
       "last_price_dollars": "0.7600",
       "volume_fp": "183539.18",
-      "volume_24h_fp": "34840.82",
+      "volume_24h_fp": "34821.24",
       "open_interest_fp": "148179.05",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52191,7 +52290,7 @@
       "no_ask_dollars": "0.4100",
       "last_price_dollars": "0.6000",
       "volume_fp": "65969.31",
-      "volume_24h_fp": "6516.89",
+      "volume_24h_fp": "6515.27",
       "open_interest_fp": "60361.93",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52218,7 +52317,7 @@
       "no_ask_dollars": "0.6000",
       "last_price_dollars": "0.4200",
       "volume_fp": "113757.31",
-      "volume_24h_fp": "36430.76",
+      "volume_24h_fp": "36372.22",
       "open_interest_fp": "107847.55",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52245,7 +52344,7 @@
       "no_ask_dollars": "0.2800",
       "last_price_dollars": "0.7300",
       "volume_fp": "47858.31",
-      "volume_24h_fp": "14173.45",
+      "volume_24h_fp": "14172.11",
       "open_interest_fp": "43703.28",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52326,7 +52425,7 @@
       "no_ask_dollars": "0.2600",
       "last_price_dollars": "0.7500",
       "volume_fp": "368909.39",
-      "volume_24h_fp": "56936.96",
+      "volume_24h_fp": "56859.12",
       "open_interest_fp": "282724.36",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52353,7 +52452,7 @@
       "no_ask_dollars": "0.4400",
       "last_price_dollars": "0.5700",
       "volume_fp": "34744.85",
-      "volume_24h_fp": "6880.50",
+      "volume_24h_fp": "6870.46",
       "open_interest_fp": "27373.32",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52380,7 +52479,7 @@
       "no_ask_dollars": "0.5800",
       "last_price_dollars": "0.4300",
       "volume_fp": "139040.26",
-      "volume_24h_fp": "48151.46",
+      "volume_24h_fp": "48106.74",
       "open_interest_fp": "116359.09",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -52407,7 +52506,7 @@
       "no_ask_dollars": "0.2200",
       "last_price_dollars": "0.7900",
       "volume_fp": "117798.90",
-      "volume_24h_fp": "27380.43",
+      "volume_24h_fp": "27365.47",
       "open_interest_fp": "103931.10",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T20:05:00Z",
@@ -52488,7 +52587,7 @@
       "no_ask_dollars": "0.4800",
       "last_price_dollars": "0.5200",
       "volume_fp": "104077.86",
-      "volume_24h_fp": "30676.28",
+      "volume_24h_fp": "30616.31",
       "open_interest_fp": "91477.71",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T20:05:00Z",
@@ -52515,7 +52614,7 @@
       "no_ask_dollars": "0.6300",
       "last_price_dollars": "0.3800",
       "volume_fp": "143899.89",
-      "volume_24h_fp": "40800.65",
+      "volume_24h_fp": "40788.04",
       "open_interest_fp": "131396.59",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T20:25:00Z",
@@ -52542,7 +52641,7 @@
       "no_ask_dollars": "0.3800",
       "last_price_dollars": "0.6300",
       "volume_fp": "61902.56",
-      "volume_24h_fp": "13745.93",
+      "volume_24h_fp": "13731.79",
       "open_interest_fp": "56320.34",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T20:25:00Z",
@@ -52569,7 +52668,7 @@
       "no_ask_dollars": "0.3900",
       "last_price_dollars": "0.6100",
       "volume_fp": "65835.36",
-      "volume_24h_fp": "17698.95",
+      "volume_24h_fp": "17695.81",
       "open_interest_fp": "59927.20",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T20:25:00Z",
@@ -52596,7 +52695,7 @@
       "no_ask_dollars": "0.6200",
       "last_price_dollars": "0.3900",
       "volume_fp": "330369.25",
-      "volume_24h_fp": "89437.95",
+      "volume_24h_fp": "89328.19",
       "open_interest_fp": "311926.11",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T20:25:00Z",
@@ -52650,7 +52749,7 @@
       "no_ask_dollars": "0.4300",
       "last_price_dollars": "0.5800",
       "volume_fp": "58903.50",
-      "volume_24h_fp": "20121.33",
+      "volume_24h_fp": "20114.41",
       "open_interest_fp": "54920.56",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-30T00:20:00Z",
@@ -52677,7 +52776,7 @@
       "no_ask_dollars": "0.6900",
       "last_price_dollars": "0.3200",
       "volume_fp": "101545.13",
-      "volume_24h_fp": "16054.78",
+      "volume_24h_fp": "15973.40",
       "open_interest_fp": "77906.80",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-10-01T00:15:00Z",
@@ -52704,7 +52803,7 @@
       "no_ask_dollars": "0.3200",
       "last_price_dollars": "0.7000",
       "volume_fp": "451719.98",
-      "volume_24h_fp": "55870.87",
+      "volume_24h_fp": "55749.71",
       "open_interest_fp": "413214.41",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-10-01T00:15:00Z",
@@ -52974,7 +53073,7 @@
       "no_ask_dollars": "0.5900",
       "last_price_dollars": "0.5200",
       "volume_fp": "999.98",
-      "volume_24h_fp": "410.58",
+      "volume_24h_fp": "382.68",
       "open_interest_fp": "889.28",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-10-06T17:00:00Z",
@@ -53325,7 +53424,7 @@
       "no_ask_dollars": "0.3500",
       "last_price_dollars": "0.6700",
       "volume_fp": "2609.34",
-      "volume_24h_fp": "986.29",
+      "volume_24h_fp": "971.50",
       "open_interest_fp": "2534.23",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-10-06T20:25:00Z",
@@ -53875,7 +53974,7 @@
       "no_ask_dollars": "0.5700",
       "last_price_dollars": "0.4300",
       "volume_fp": "178415.35",
-      "volume_24h_fp": "49911.09",
+      "volume_24h_fp": "49830.24",
       "open_interest_fp": "130757.97",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T00:15:00Z",
@@ -53903,7 +54002,7 @@
       "no_ask_dollars": "0.5300",
       "last_price_dollars": "0.4700",
       "volume_fp": "261768.99",
-      "volume_24h_fp": "199757.20",
+      "volume_24h_fp": "199589.56",
       "open_interest_fp": "225456.56",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T00:15:00Z",
@@ -56759,7 +56858,7 @@
       "no_ask_dollars": "0.3400",
       "last_price_dollars": "0.6700",
       "volume_fp": "20699.90",
-      "volume_24h_fp": "4734.58",
+      "volume_24h_fp": "4661.06",
       "open_interest_fp": "20383.82",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -57459,7 +57558,7 @@
       "no_ask_dollars": "0.4500",
       "last_price_dollars": "0.5600",
       "volume_fp": "25002.68",
-      "volume_24h_fp": "9140.72",
+      "volume_24h_fp": "9139.72",
       "open_interest_fp": "24248.80",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -58467,7 +58566,7 @@
       "no_ask_dollars": "0.8000",
       "last_price_dollars": "0.2300",
       "volume_fp": "536.61",
-      "volume_24h_fp": "123.94",
+      "volume_24h_fp": "119.43",
       "open_interest_fp": "536.61",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -60651,7 +60750,7 @@
       "no_ask_dollars": "0.6900",
       "last_price_dollars": "0.3200",
       "volume_fp": "1814.12",
-      "volume_24h_fp": "189.08",
+      "volume_24h_fp": "173.20",
       "open_interest_fp": "1814.12",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -62018,8 +62117,8 @@
         "football_team": "2279efa0-9284-4224-9647-09b14f6983ce"
       },
       "yes_bid_dollars": "0.4500",
-      "yes_ask_dollars": "0.4600",
-      "no_bid_dollars": "0.5400",
+      "yes_ask_dollars": "0.4700",
+      "no_bid_dollars": "0.5300",
       "no_ask_dollars": "0.5500",
       "last_price_dollars": "0.4700",
       "volume_fp": "5060.44",
@@ -62051,7 +62150,7 @@
       "no_ask_dollars": "0.5200",
       "last_price_dollars": "0.4900",
       "volume_fp": "21126.56",
-      "volume_24h_fp": "5212.94",
+      "volume_24h_fp": "5132.94",
       "open_interest_fp": "16051.25",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T20:05:00Z",
@@ -63306,8 +63405,8 @@
         "football_team": "f7c2cd06-61bf-469e-984f-3ef56cb8f3d7"
       },
       "yes_bid_dollars": "0.3600",
-      "yes_ask_dollars": "0.3900",
-      "no_bid_dollars": "0.6100",
+      "yes_ask_dollars": "0.4100",
+      "no_bid_dollars": "0.5900",
       "no_ask_dollars": "0.6400",
       "last_price_dollars": "0.3800",
       "volume_fp": "1402.72",
@@ -63585,10 +63684,10 @@
       "custom_strike": {
         "football_team": "8b1ce23e-7d64-4213-85e9-7d12bc8c4d85"
       },
-      "yes_bid_dollars": "0.2100",
+      "yes_bid_dollars": "0.2000",
       "yes_ask_dollars": "0.2400",
       "no_bid_dollars": "0.7600",
-      "no_ask_dollars": "0.7900",
+      "no_ask_dollars": "0.8000",
       "last_price_dollars": "0.2400",
       "volume_fp": "293.00",
       "volume_24h_fp": "277.00",
@@ -64795,7 +64894,7 @@
       "no_ask_dollars": "0.4700",
       "last_price_dollars": "0.5300",
       "volume_fp": "168966.39",
-      "volume_24h_fp": "1011.17",
+      "volume_24h_fp": "996.82",
       "open_interest_fp": "106428.96",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-10-01T00:15:00Z",
@@ -65334,7 +65433,7 @@
       "no_ask_dollars": "0.5400",
       "last_price_dollars": "0.4600",
       "volume_fp": "160499.96",
-      "volume_24h_fp": "136749.52",
+      "volume_24h_fp": "136715.52",
       "open_interest_fp": "97116.54",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T00:15:00Z",
@@ -66534,7 +66633,7 @@
       "no_ask_dollars": "0.9000",
       "last_price_dollars": "0.1000",
       "volume_fp": "4325.54",
-      "volume_24h_fp": "1558.53",
+      "volume_24h_fp": "1479.19",
       "open_interest_fp": "4325.54",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -67934,7 +68033,7 @@
       "no_ask_dollars": "0.8400",
       "last_price_dollars": "0.1700",
       "volume_fp": "2345.24",
-      "volume_24h_fp": "860.49",
+      "volume_24h_fp": "553.54",
       "open_interest_fp": "2345.24",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -68534,7 +68633,7 @@
       "no_ask_dollars": "0.1200",
       "last_price_dollars": "0.9200",
       "volume_fp": "558.72",
-      "volume_24h_fp": "496.72",
+      "volume_24h_fp": "419.35",
       "open_interest_fp": "558.72",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -69654,8 +69753,8 @@
       "status": "active",
       "result": "",
       "yes_bid_dollars": "0.3900",
-      "yes_ask_dollars": "0.4000",
-      "no_bid_dollars": "0.6000",
+      "yes_ask_dollars": "0.4100",
+      "no_bid_dollars": "0.5900",
       "no_ask_dollars": "0.6100",
       "last_price_dollars": "0.4100",
       "volume_fp": "6099.25",
@@ -70309,7 +70408,7 @@
       "no_ask_dollars": "0.8300",
       "last_price_dollars": "0.1900",
       "volume_fp": "1061.11",
-      "volume_24h_fp": "1010.31",
+      "volume_24h_fp": "810.84",
       "open_interest_fp": "1061.11",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T20:05:00Z",
@@ -71503,10 +71602,10 @@
       "no_sub_title": "Over 41.5 points scored",
       "status": "active",
       "result": "",
-      "yes_bid_dollars": "0.5700",
+      "yes_bid_dollars": "0.5600",
       "yes_ask_dollars": "0.5800",
       "no_bid_dollars": "0.4200",
-      "no_ask_dollars": "0.4300",
+      "no_ask_dollars": "0.4400",
       "last_price_dollars": "0.5800",
       "volume_fp": "7001.74",
       "volume_24h_fp": "0.40",
@@ -71559,7 +71658,7 @@
       "no_ask_dollars": "0.5100",
       "last_price_dollars": "0.5000",
       "volume_fp": "15647.82",
-      "volume_24h_fp": "4556.98",
+      "volume_24h_fp": "4538.98",
       "open_interest_fp": "13961.84",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T20:25:00Z",
@@ -72956,10 +73055,10 @@
         "football_player": "e97d88a5-b339-4b92-bd49-877e01b32191",
         "football_team": "08c52d1f-7ce1-445f-be72-97de0554ecc8"
       },
-      "yes_bid_dollars": "0.1300",
+      "yes_bid_dollars": "0.1200",
       "yes_ask_dollars": "0.1500",
       "no_bid_dollars": "0.8500",
-      "no_ask_dollars": "0.8700",
+      "no_ask_dollars": "0.8800",
       "last_price_dollars": "0.1500",
       "volume_fp": "8599.10",
       "volume_24h_fp": "3228.16",
@@ -80380,10 +80479,10 @@
         "football_player": "3957c011-d221-4b18-b1a8-7033f431b763",
         "football_team": "08c52d1f-7ce1-445f-be72-97de0554ecc8"
       },
-      "yes_bid_dollars": "0.1700",
+      "yes_bid_dollars": "0.1600",
       "yes_ask_dollars": "0.2000",
       "no_bid_dollars": "0.8000",
-      "no_ask_dollars": "0.8300",
+      "no_ask_dollars": "0.8400",
       "last_price_dollars": "0.1900",
       "volume_fp": "1038.42",
       "volume_24h_fp": "656.97",
@@ -81314,7 +81413,7 @@
       "no_ask_dollars": "0.6100",
       "last_price_dollars": "0.4100",
       "volume_fp": "1975.65",
-      "volume_24h_fp": "469.43",
+      "volume_24h_fp": "460.70",
       "open_interest_fp": "1382.78",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T00:15:00Z",
@@ -83947,10 +84046,10 @@
         "football_player": "46fc0292-2206-4060-a04a-0111e548a398",
         "football_team": "4cba614d-2d32-48ef-a066-1524437fbaff"
       },
-      "yes_bid_dollars": "0.3500",
+      "yes_bid_dollars": "0.1400",
       "yes_ask_dollars": "0.5200",
       "no_bid_dollars": "0.4800",
-      "no_ask_dollars": "0.6500",
+      "no_ask_dollars": "0.8600",
       "last_price_dollars": "0.5100",
       "volume_fp": "321.46",
       "volume_24h_fp": "321.46",
@@ -85630,8 +85729,8 @@
         "football_team": "611e3786-3bfe-4919-bbd5-bc70fc13d827"
       },
       "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.1500",
-      "no_bid_dollars": "0.8500",
+      "yes_ask_dollars": "0.1600",
+      "no_bid_dollars": "0.8400",
       "no_ask_dollars": "0.9800",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
@@ -92624,7 +92723,7 @@
       "no_ask_dollars": "0.4200",
       "last_price_dollars": "0.5900",
       "volume_fp": "10054.52",
-      "volume_24h_fp": "3824.16",
+      "volume_24h_fp": "3815.10",
       "open_interest_fp": "9637.03",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T00:15:00Z",
@@ -93291,7 +93390,7 @@
       "no_ask_dollars": "0.4600",
       "last_price_dollars": "0.5500",
       "volume_fp": "13725.09",
-      "volume_24h_fp": "7062.56",
+      "volume_24h_fp": "7044.94",
       "open_interest_fp": "13725.04",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T00:15:00Z",
@@ -95026,8 +95125,8 @@
         "football_team": "75685be6-4388-4bba-8bcb-d0b0c24feb50"
       },
       "yes_bid_dollars": "0.4700",
-      "yes_ask_dollars": "0.4800",
-      "no_bid_dollars": "0.5200",
+      "yes_ask_dollars": "0.5000",
+      "no_bid_dollars": "0.5000",
       "no_ask_dollars": "0.5300",
       "last_price_dollars": "0.4800",
       "volume_fp": "5646.46",
@@ -98273,10 +98372,10 @@
         "football_player": "46fc0292-2206-4060-a04a-0111e548a398",
         "football_team": "4cba614d-2d32-48ef-a066-1524437fbaff"
       },
-      "yes_bid_dollars": "0.5400",
+      "yes_bid_dollars": "0.1600",
       "yes_ask_dollars": "0.7400",
       "no_bid_dollars": "0.2600",
-      "no_ask_dollars": "0.4600",
+      "no_ask_dollars": "0.8400",
       "last_price_dollars": "0.6500",
       "volume_fp": "1.00",
       "volume_24h_fp": "1.00",
@@ -98331,10 +98430,10 @@
         "football_player": "46fc0292-2206-4060-a04a-0111e548a398",
         "football_team": "4cba614d-2d32-48ef-a066-1524437fbaff"
       },
-      "yes_bid_dollars": "0.1300",
+      "yes_bid_dollars": "0.0200",
       "yes_ask_dollars": "0.3300",
       "no_bid_dollars": "0.6700",
-      "no_ask_dollars": "0.8700",
+      "no_ask_dollars": "0.9800",
       "last_price_dollars": "0.1500",
       "volume_fp": "3.00",
       "volume_24h_fp": "3.00",
@@ -101405,10 +101504,10 @@
         "football_player": "e8a76c7b-60b6-4c16-9107-1eaf70a99ecf",
         "football_team": "61a75ab7-eaf0-4601-b920-86b1e165007d"
       },
-      "yes_bid_dollars": "0.0500",
+      "yes_bid_dollars": "0.0200",
       "yes_ask_dollars": "0.1800",
       "no_bid_dollars": "0.8200",
-      "no_ask_dollars": "0.9500",
+      "no_ask_dollars": "0.9800",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
       "volume_24h_fp": "0.00",
@@ -101435,8 +101534,8 @@
         "football_team": "61a75ab7-eaf0-4601-b920-86b1e165007d"
       },
       "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.1300",
-      "no_bid_dollars": "0.8700",
+      "yes_ask_dollars": "0.1400",
+      "no_bid_dollars": "0.8600",
       "no_ask_dollars": "0.9800",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
@@ -104775,7 +104874,7 @@
       "no_ask_dollars": "0.4600",
       "last_price_dollars": "0.5500",
       "volume_fp": "6375.95",
-      "volume_24h_fp": "6361.85",
+      "volume_24h_fp": "6360.85",
       "open_interest_fp": "6374.95",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T17:00:00Z",
@@ -109699,10 +109798,10 @@
         "football_player": "7263bc21-1155-4723-954a-7ed5ee22bc0a",
         "football_team": "62b97b7c-5503-461c-b328-fd8543219b22"
       },
-      "yes_bid_dollars": "0.1900",
+      "yes_bid_dollars": "0.0500",
       "yes_ask_dollars": "0.3300",
       "no_bid_dollars": "0.6700",
-      "no_ask_dollars": "0.8100",
+      "no_ask_dollars": "0.9500",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
       "volume_24h_fp": "0.00",
@@ -111990,10 +112089,10 @@
         "football_player": "d84418fe-680c-4e76-a22e-d3a3d239b4b2",
         "football_team": "0aa02fd7-1bb1-474b-98e1-5379d0a191e3"
       },
-      "yes_bid_dollars": "0.4100",
+      "yes_bid_dollars": "0.1500",
       "yes_ask_dollars": "0.5300",
       "no_bid_dollars": "0.4700",
-      "no_ask_dollars": "0.5900",
+      "no_ask_dollars": "0.8500",
       "last_price_dollars": "0.4800",
       "volume_fp": "1.01",
       "volume_24h_fp": "1.01",
@@ -113214,7 +113313,7 @@
       "no_ask_dollars": "0.4300",
       "last_price_dollars": "0.5800",
       "volume_fp": "54450.17",
-      "volume_24h_fp": "53499.13",
+      "volume_24h_fp": "53490.00",
       "open_interest_fp": "53810.82",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T00:15:00Z",
@@ -113586,8 +113685,8 @@
         "football_team": "08c52d1f-7ce1-445f-be72-97de0554ecc8"
       },
       "yes_bid_dollars": "0.0600",
-      "yes_ask_dollars": "0.6800",
-      "no_bid_dollars": "0.3200",
+      "yes_ask_dollars": "0.6900",
+      "no_bid_dollars": "0.3100",
       "no_ask_dollars": "0.9400",
       "last_price_dollars": "0.6200",
       "volume_fp": "952.22",
@@ -113620,7 +113719,7 @@
       "no_ask_dollars": "0.5600",
       "last_price_dollars": "0.4500",
       "volume_fp": "1393.05",
-      "volume_24h_fp": "1285.09",
+      "volume_24h_fp": "1275.09",
       "open_interest_fp": "1289.84",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T00:15:00Z",
@@ -114113,7 +114212,7 @@
       "no_ask_dollars": "0.5400",
       "last_price_dollars": "0.4700",
       "volume_fp": "18454.01",
-      "volume_24h_fp": "9256.83",
+      "volume_24h_fp": "9239.40",
       "open_interest_fp": "18332.12",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T00:15:00Z",
@@ -115934,10 +116033,10 @@
         "football_player": "8dce799c-d9a6-4dbd-8610-9bc770a2a077",
         "football_team": "75685be6-4388-4bba-8bcb-d0b0c24feb50"
       },
-      "yes_bid_dollars": "0.0400",
+      "yes_bid_dollars": "0.0300",
       "yes_ask_dollars": "0.0600",
       "no_bid_dollars": "0.9400",
-      "no_ask_dollars": "0.9600",
+      "no_ask_dollars": "0.9700",
       "last_price_dollars": "0.0600",
       "volume_fp": "49049.18",
       "volume_24h_fp": "49049.18",
@@ -117239,10 +117338,10 @@
         "football_player": "c92456f4-af38-49f9-9fb8-d87b41d89972",
         "football_team": "e37050ce-354f-4dd0-b2d8-0bd1e9650eb7"
       },
-      "yes_bid_dollars": "0.0500",
+      "yes_bid_dollars": "0.0100",
       "yes_ask_dollars": "0.1700",
       "no_bid_dollars": "0.8300",
-      "no_ask_dollars": "0.9500",
+      "no_ask_dollars": "0.9900",
       "last_price_dollars": "0.1000",
       "volume_fp": "6.00",
       "volume_24h_fp": "6.00",
@@ -126462,8 +126561,8 @@
         "football_team": "2279efa0-9284-4224-9647-09b14f6983ce"
       },
       "yes_bid_dollars": "0.0500",
-      "yes_ask_dollars": "0.2700",
-      "no_bid_dollars": "0.7300",
+      "yes_ask_dollars": "0.4900",
+      "no_bid_dollars": "0.5100",
       "no_ask_dollars": "0.9500",
       "last_price_dollars": "0.1600",
       "volume_fp": "142.66",
@@ -126607,8 +126706,8 @@
         "football_team": "2279efa0-9284-4224-9647-09b14f6983ce"
       },
       "yes_bid_dollars": "0.2100",
-      "yes_ask_dollars": "0.2500",
-      "no_bid_dollars": "0.7500",
+      "yes_ask_dollars": "0.2600",
+      "no_bid_dollars": "0.7400",
       "no_ask_dollars": "0.7900",
       "last_price_dollars": "0.2600",
       "volume_fp": "163.16",
@@ -130730,7 +130829,7 @@
       "no_ask_dollars": "0.4900",
       "last_price_dollars": "0.5200",
       "volume_fp": "19422.67",
-      "volume_24h_fp": "14002.83",
+      "volume_24h_fp": "13993.70",
       "open_interest_fp": "19014.65",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T00:15:00Z",
@@ -134294,7 +134393,7 @@
       "no_ask_dollars": "0.4500",
       "last_price_dollars": "0.5600",
       "volume_fp": "64721.99",
-      "volume_24h_fp": "22313.96",
+      "volume_24h_fp": "22310.50",
       "open_interest_fp": "59824.21",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-26T23:30:00Z",
@@ -134375,7 +134474,7 @@
       "no_ask_dollars": "0.8100",
       "last_price_dollars": "0.2000",
       "volume_fp": "4290.08",
-      "volume_24h_fp": "1391.87",
+      "volume_24h_fp": "1391.30",
       "open_interest_fp": "3611.82",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T23:00:00Z",
@@ -134396,10 +134495,10 @@
       "custom_strike": {
         "football_team": "458892c7-5011-4170-b953-6baa0e7eddcd"
       },
-      "yes_bid_dollars": "0.8100",
+      "yes_bid_dollars": "0.8000",
       "yes_ask_dollars": "0.8600",
       "no_bid_dollars": "0.1400",
-      "no_ask_dollars": "0.1900",
+      "no_ask_dollars": "0.2000",
       "last_price_dollars": "0.8300",
       "volume_fp": "5293.50",
       "volume_24h_fp": "847.18",
@@ -134456,7 +134555,7 @@
       "no_ask_dollars": "0.9900",
       "last_price_dollars": "0.0200",
       "volume_fp": "530963.15",
-      "volume_24h_fp": "159664.54",
+      "volume_24h_fp": "159225.54",
       "open_interest_fp": "506797.36",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T23:00:00Z",
@@ -134510,7 +134609,7 @@
       "no_ask_dollars": "0.2900",
       "last_price_dollars": "0.7200",
       "volume_fp": "12282.42",
-      "volume_24h_fp": "1482.35",
+      "volume_24h_fp": "1480.99",
       "open_interest_fp": "8702.30",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T23:00:00Z",
@@ -134564,7 +134663,7 @@
       "no_ask_dollars": "0.9300",
       "last_price_dollars": "0.0800",
       "volume_fp": "109672.56",
-      "volume_24h_fp": "46052.54",
+      "volume_24h_fp": "42699.41",
       "open_interest_fp": "104430.52",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T00:00:00Z",
@@ -134618,7 +134717,7 @@
       "no_ask_dollars": "0.5000",
       "last_price_dollars": "0.5100",
       "volume_fp": "35203.38",
-      "volume_24h_fp": "6752.60",
+      "volume_24h_fp": "6752.42",
       "open_interest_fp": "31112.42",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T02:30:00Z",
@@ -134693,10 +134792,10 @@
       "custom_strike": {
         "football_team": "9c0b84f0-52dd-48dd-a574-a576634ecc69"
       },
-      "yes_bid_dollars": "0.7300",
-      "yes_ask_dollars": "0.7600",
-      "no_bid_dollars": "0.2400",
-      "no_ask_dollars": "0.2700",
+      "yes_bid_dollars": "0.7000",
+      "yes_ask_dollars": "0.7900",
+      "no_bid_dollars": "0.2100",
+      "no_ask_dollars": "0.3000",
       "last_price_dollars": "0.7400",
       "volume_fp": "620.67",
       "volume_24h_fp": "414.34",
@@ -134753,7 +134852,7 @@
       "no_ask_dollars": "0.6400",
       "last_price_dollars": "0.3700",
       "volume_fp": "130872.90",
-      "volume_24h_fp": "44084.03",
+      "volume_24h_fp": "44069.98",
       "open_interest_fp": "117518.36",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T16:00:00Z",
@@ -134834,7 +134933,7 @@
       "no_ask_dollars": "0.6200",
       "last_price_dollars": "0.4000",
       "volume_fp": "1225.43",
-      "volume_24h_fp": "226.83",
+      "volume_24h_fp": "203.40",
       "open_interest_fp": "1092.47",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T16:00:00Z",
@@ -135530,10 +135629,10 @@
       "custom_strike": {
         "football_team": "f975778e-fef0-48bf-8426-4cdc072ad804"
       },
-      "yes_bid_dollars": "0.7900",
+      "yes_bid_dollars": "0.7700",
       "yes_ask_dollars": "0.8200",
       "no_bid_dollars": "0.1800",
-      "no_ask_dollars": "0.2100",
+      "no_ask_dollars": "0.2300",
       "last_price_dollars": "0.7900",
       "volume_fp": "1038.83",
       "volume_24h_fp": "28.96",
@@ -135725,7 +135824,7 @@
       "no_ask_dollars": "0.3400",
       "last_price_dollars": "0.6700",
       "volume_fp": "18420.63",
-      "volume_24h_fp": "3146.62",
+      "volume_24h_fp": "3091.99",
       "open_interest_fp": "17180.19",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T17:00:00Z",
@@ -136103,7 +136202,7 @@
       "no_ask_dollars": "0.4200",
       "last_price_dollars": "0.5900",
       "volume_fp": "186838.89",
-      "volume_24h_fp": "56689.79",
+      "volume_24h_fp": "56688.15",
       "open_interest_fp": "136215.38",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T17:00:00Z",
@@ -136130,7 +136229,7 @@
       "no_ask_dollars": "0.5900",
       "last_price_dollars": "0.4200",
       "volume_fp": "1650962.06",
-      "volume_24h_fp": "297030.33",
+      "volume_24h_fp": "296853.32",
       "open_interest_fp": "1554466.21",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T17:00:00Z",
@@ -136157,7 +136256,7 @@
       "no_ask_dollars": "0.3300",
       "last_price_dollars": "0.6800",
       "volume_fp": "22689.22",
-      "volume_24h_fp": "2967.57",
+      "volume_24h_fp": "2938.64",
       "open_interest_fp": "20194.74",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T17:00:00Z",
@@ -136184,7 +136283,7 @@
       "no_ask_dollars": "0.6800",
       "last_price_dollars": "0.3300",
       "volume_fp": "31238.25",
-      "volume_24h_fp": "9294.77",
+      "volume_24h_fp": "9193.47",
       "open_interest_fp": "30395.88",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T17:00:00Z",
@@ -136535,7 +136634,7 @@
       "no_ask_dollars": "0.1600",
       "last_price_dollars": "0.8500",
       "volume_fp": "62966.29",
-      "volume_24h_fp": "13813.74",
+      "volume_24h_fp": "13807.92",
       "open_interest_fp": "58778.75",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T17:00:00Z",
@@ -136832,7 +136931,7 @@
       "no_ask_dollars": "0.9900",
       "last_price_dollars": "0.0200",
       "volume_fp": "156103.42",
-      "volume_24h_fp": "36931.82",
+      "volume_24h_fp": "36929.49",
       "open_interest_fp": "134440.33",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T17:00:00Z",
@@ -137534,7 +137633,7 @@
       "no_ask_dollars": "0.7800",
       "last_price_dollars": "0.2300",
       "volume_fp": "7779.45",
-      "volume_24h_fp": "1428.77",
+      "volume_24h_fp": "1407.96",
       "open_interest_fp": "7196.22",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T17:00:00Z",
@@ -138230,10 +138329,10 @@
       "custom_strike": {
         "football_team": "ebabed1f-cd29-4f95-886f-aeeebd87f886"
       },
-      "yes_bid_dollars": "0.0400",
+      "yes_bid_dollars": "0.0300",
       "yes_ask_dollars": "0.0500",
       "no_bid_dollars": "0.9500",
-      "no_ask_dollars": "0.9600",
+      "no_ask_dollars": "0.9700",
       "last_price_dollars": "0.0500",
       "volume_fp": "6079.31",
       "volume_24h_fp": "2986.05",
@@ -139661,10 +139760,10 @@
       "custom_strike": {
         "football_team": "f18defe1-5718-44d5-b244-80b01b449943"
       },
-      "yes_bid_dollars": "0.7100",
+      "yes_bid_dollars": "0.7000",
       "yes_ask_dollars": "0.7300",
       "no_bid_dollars": "0.2700",
-      "no_ask_dollars": "0.2900",
+      "no_ask_dollars": "0.3000",
       "last_price_dollars": "0.7300",
       "volume_fp": "315.97",
       "volume_24h_fp": "9.41",
@@ -139958,10 +140057,10 @@
       "custom_strike": {
         "football_team": "2139a836-8327-4e44-8741-01265f098614"
       },
-      "yes_bid_dollars": "0.0800",
+      "yes_bid_dollars": "0.0700",
       "yes_ask_dollars": "0.1100",
       "no_bid_dollars": "0.8900",
-      "no_ask_dollars": "0.9200",
+      "no_ask_dollars": "0.9300",
       "last_price_dollars": "0.0900",
       "volume_fp": "496.32",
       "volume_24h_fp": "231.03",
@@ -139985,10 +140084,10 @@
       "custom_strike": {
         "football_team": "c90827e3-fc0d-4921-b264-dc724c78e660"
       },
-      "yes_bid_dollars": "0.6300",
+      "yes_bid_dollars": "0.3300",
       "yes_ask_dollars": "0.8000",
       "no_bid_dollars": "0.2000",
-      "no_ask_dollars": "0.3700",
+      "no_ask_dollars": "0.6700",
       "last_price_dollars": "0.7000",
       "volume_fp": "133.43",
       "volume_24h_fp": "72.08",
@@ -148129,7 +148228,7 @@
       "no_ask_dollars": "0.5300",
       "last_price_dollars": "0.4800",
       "volume_fp": "3486.85",
-      "volume_24h_fp": "1378.89",
+      "volume_24h_fp": "1337.89",
       "open_interest_fp": "3321.20",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T20:00:00Z",
@@ -149837,7 +149936,7 @@
       "no_ask_dollars": "0.4800",
       "last_price_dollars": "0.5400",
       "volume_fp": "1330.30",
-      "volume_24h_fp": "486.15",
+      "volume_24h_fp": "478.15",
       "open_interest_fp": "1330.30",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-27T23:00:00Z",
@@ -156081,7 +156180,7 @@
       "no_ask_dollars": "0.4700",
       "last_price_dollars": "0.5500",
       "volume_fp": "4078.61",
-      "volume_24h_fp": "1141.10",
+      "volume_24h_fp": "1111.10",
       "open_interest_fp": "3875.22",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T16:00:00Z",
@@ -156663,10 +156762,10 @@
       "custom_strike": {
         "football_team": "8c2bb3a9-6c76-47f6-8ccb-eef514f2d166"
       },
-      "yes_bid_dollars": "0.5000",
+      "yes_bid_dollars": "0.4900",
       "yes_ask_dollars": "0.5100",
       "no_bid_dollars": "0.4900",
-      "no_ask_dollars": "0.5000",
+      "no_ask_dollars": "0.5100",
       "last_price_dollars": "0.5000",
       "volume_fp": "6325.96",
       "volume_24h_fp": "1665.46",
@@ -157173,7 +157272,7 @@
       "no_ask_dollars": "0.5400",
       "last_price_dollars": "0.4700",
       "volume_fp": "50762.75",
-      "volume_24h_fp": "10461.16",
+      "volume_24h_fp": "10423.16",
       "open_interest_fp": "37487.46",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T16:00:00Z",
@@ -160085,7 +160184,7 @@
       "no_ask_dollars": "0.4800",
       "last_price_dollars": "0.5200",
       "volume_fp": "1938.59",
-      "volume_24h_fp": "587.07",
+      "volume_24h_fp": "579.07",
       "open_interest_fp": "1785.60",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T16:00:00Z",
@@ -161653,7 +161752,7 @@
       "no_ask_dollars": "0.5100",
       "last_price_dollars": "0.5000",
       "volume_fp": "7517.45",
-      "volume_24h_fp": "5214.20",
+      "volume_24h_fp": "5159.20",
       "open_interest_fp": "6732.83",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T16:45:00Z",
@@ -171285,7 +171384,7 @@
       "no_ask_dollars": "0.4800",
       "last_price_dollars": "0.5300",
       "volume_fp": "4431.91",
-      "volume_24h_fp": "1100.75",
+      "volume_24h_fp": "1069.75",
       "open_interest_fp": "4382.56",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T19:00:00Z",
@@ -173693,7 +173792,7 @@
       "no_ask_dollars": "0.5200",
       "last_price_dollars": "0.4800",
       "volume_fp": "13202.41",
-      "volume_24h_fp": "7267.53",
+      "volume_24h_fp": "7226.53",
       "open_interest_fp": "13003.78",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T19:30:00Z",
@@ -174645,7 +174744,7 @@
       "no_ask_dollars": "0.5400",
       "last_price_dollars": "0.4600",
       "volume_fp": "97985.57",
-      "volume_24h_fp": "31010.71",
+      "volume_24h_fp": "30975.71",
       "open_interest_fp": "86587.56",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T19:30:00Z",
@@ -175872,8 +175971,8 @@
         "football_team": "d02cb013-fc71-47a8-81fe-29e0b6882e24"
       },
       "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.3300",
-      "no_bid_dollars": "0.6700",
+      "yes_ask_dollars": "0.7200",
+      "no_bid_dollars": "0.2800",
       "no_ask_dollars": "0.9800",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
@@ -178196,8 +178295,8 @@
         "football_team": "090e67b0-1460-4922-91f9-7f442b2eb856"
       },
       "yes_bid_dollars": "0.6900",
-      "yes_ask_dollars": "0.7200",
-      "no_bid_dollars": "0.2800",
+      "yes_ask_dollars": "0.7400",
+      "no_bid_dollars": "0.2600",
       "no_ask_dollars": "0.3100",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
@@ -180240,8 +180339,8 @@
         "football_team": "0ac8aab5-3706-481a-a85c-7bc2f33606f7"
       },
       "yes_bid_dollars": "0.0300",
-      "yes_ask_dollars": "0.3100",
-      "no_bid_dollars": "0.6900",
+      "yes_ask_dollars": "0.8000",
+      "no_bid_dollars": "0.2000",
       "no_ask_dollars": "0.9700",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
@@ -184277,7 +184376,7 @@
       "no_ask_dollars": "0.5000",
       "last_price_dollars": "0.5100",
       "volume_fp": "7443.15",
-      "volume_24h_fp": "499.97",
+      "volume_24h_fp": "498.97",
       "open_interest_fp": "6669.61",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T20:15:00Z",
@@ -187217,7 +187316,7 @@
       "no_ask_dollars": "0.4800",
       "last_price_dollars": "0.5300",
       "volume_fp": "14266.08",
-      "volume_24h_fp": "3708.61",
+      "volume_24h_fp": "3698.61",
       "open_interest_fp": "13250.10",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T21:00:00Z",
@@ -188444,8 +188543,8 @@
         "football_team": "0bf6c190-3556-4ad9-90f2-942a596cd45d"
       },
       "yes_bid_dollars": "0.5900",
-      "yes_ask_dollars": "0.6300",
-      "no_bid_dollars": "0.3700",
+      "yes_ask_dollars": "0.6600",
+      "no_bid_dollars": "0.3400",
       "no_ask_dollars": "0.4100",
       "last_price_dollars": "0.6100",
       "volume_fp": "62.47",
@@ -198277,7 +198376,7 @@
       "no_ask_dollars": "0.4900",
       "last_price_dollars": "0.5100",
       "volume_fp": "9762.63",
-      "volume_24h_fp": "4633.03",
+      "volume_24h_fp": "4632.03",
       "open_interest_fp": "9101.22",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T23:00:00Z",
@@ -202807,10 +202906,10 @@
       "custom_strike": {
         "football_team": "6ef86191-9211-4ea4-bbe4-bb7cdc04ebf4"
       },
-      "yes_bid_dollars": "0.6700",
-      "yes_ask_dollars": "0.8800",
-      "no_bid_dollars": "0.1200",
-      "no_ask_dollars": "0.3300",
+      "yes_bid_dollars": "0.2400",
+      "yes_ask_dollars": "0.9700",
+      "no_bid_dollars": "0.0300",
+      "no_ask_dollars": "0.7600",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
       "volume_24h_fp": "0.00",
@@ -208441,7 +208540,7 @@
       "no_ask_dollars": "0.5500",
       "last_price_dollars": "0.4500",
       "volume_fp": "5659.37",
-      "volume_24h_fp": "938.29",
+      "volume_24h_fp": "937.29",
       "open_interest_fp": "4864.39",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T00:00:00Z",
@@ -214399,10 +214498,10 @@
       "custom_strike": {
         "football_team": "dc3f22cf-921a-423f-9d1b-ed0289cc7ee7"
       },
-      "yes_bid_dollars": "0.0700",
+      "yes_bid_dollars": "0.0600",
       "yes_ask_dollars": "0.0800",
       "no_bid_dollars": "0.9200",
-      "no_ask_dollars": "0.9300",
+      "no_ask_dollars": "0.9400",
       "last_price_dollars": "0.0700",
       "volume_fp": "14092.00",
       "volume_24h_fp": "16.00",
@@ -215077,7 +215176,7 @@
       "no_ask_dollars": "0.5500",
       "last_price_dollars": "0.4500",
       "volume_fp": "2383.75",
-      "volume_24h_fp": "1724.34",
+      "volume_24h_fp": "1715.53",
       "open_interest_fp": "2383.75",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-29T03:00:00Z",
@@ -216757,8 +216856,8 @@
       "status": "active",
       "result": "",
       "yes_bid_dollars": "0.2900",
-      "yes_ask_dollars": "0.5200",
-      "no_bid_dollars": "0.4800",
+      "yes_ask_dollars": "0.5500",
+      "no_bid_dollars": "0.4500",
       "no_ask_dollars": "0.7100",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
@@ -222562,7 +222661,7 @@
       "no_ask_dollars": "0.5100",
       "last_price_dollars": "0.4900",
       "volume_fp": "8630.39",
-      "volume_24h_fp": "3042.74",
+      "volume_24h_fp": "3040.74",
       "open_interest_fp": "8254.72",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T16:00:00Z",
@@ -225231,10 +225330,10 @@
       "no_sub_title": "Over 49.5 points scored",
       "status": "active",
       "result": "",
-      "yes_bid_dollars": "0.6000",
+      "yes_bid_dollars": "0.5800",
       "yes_ask_dollars": "0.6300",
       "no_bid_dollars": "0.3700",
-      "no_ask_dollars": "0.4000",
+      "no_ask_dollars": "0.4200",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
       "volume_24h_fp": "0.00",
@@ -228157,8 +228256,8 @@
       "status": "active",
       "result": "",
       "yes_bid_dollars": "0.5500",
-      "yes_ask_dollars": "0.5900",
-      "no_bid_dollars": "0.4100",
+      "yes_ask_dollars": "0.6200",
+      "no_bid_dollars": "0.3800",
       "no_ask_dollars": "0.4500",
       "last_price_dollars": "0.6000",
       "volume_fp": "8.10",
@@ -231831,10 +231930,10 @@
       "no_sub_title": "Over 59.5 points scored",
       "status": "active",
       "result": "",
-      "yes_bid_dollars": "0.5000",
+      "yes_bid_dollars": "0.4100",
       "yes_ask_dollars": "0.6800",
       "no_bid_dollars": "0.3200",
-      "no_ask_dollars": "0.5000",
+      "no_ask_dollars": "0.5900",
       "last_price_dollars": "0.5900",
       "volume_fp": "525.80",
       "volume_24h_fp": "225.80",
@@ -233712,7 +233811,7 @@
       "no_ask_dollars": "0.4600",
       "last_price_dollars": "0.5500",
       "volume_fp": "5125.25",
-      "volume_24h_fp": "55.51",
+      "volume_24h_fp": "38.48",
       "open_interest_fp": "3832.57",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T19:30:00Z",
@@ -234212,7 +234311,7 @@
       "no_ask_dollars": "0.5200",
       "last_price_dollars": "0.4900",
       "volume_fp": "12972.46",
-      "volume_24h_fp": "6249.21",
+      "volume_24h_fp": "6248.21",
       "open_interest_fp": "9643.07",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T19:30:00Z",
@@ -234237,7 +234336,7 @@
       "no_ask_dollars": "0.5500",
       "last_price_dollars": "0.4500",
       "volume_fp": "10323.60",
-      "volume_24h_fp": "654.32",
+      "volume_24h_fp": "631.27",
       "open_interest_fp": "9695.81",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T19:30:00Z",
@@ -234612,7 +234711,7 @@
       "no_ask_dollars": "0.5400",
       "last_price_dollars": "0.4600",
       "volume_fp": "14626.55",
-      "volume_24h_fp": "2895.03",
+      "volume_24h_fp": "2886.03",
       "open_interest_fp": "12979.76",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T19:30:00Z",
@@ -235982,8 +236081,8 @@
       "status": "active",
       "result": "",
       "yes_bid_dollars": "0.6100",
-      "yes_ask_dollars": "0.6500",
-      "no_bid_dollars": "0.3500",
+      "yes_ask_dollars": "0.6600",
+      "no_bid_dollars": "0.3400",
       "no_ask_dollars": "0.3900",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
@@ -236106,10 +236205,10 @@
       "no_sub_title": "Over 52.5 points scored",
       "status": "active",
       "result": "",
-      "yes_bid_dollars": "0.3700",
-      "yes_ask_dollars": "0.4100",
-      "no_bid_dollars": "0.5900",
-      "no_ask_dollars": "0.6300",
+      "yes_bid_dollars": "0.3500",
+      "yes_ask_dollars": "0.4300",
+      "no_bid_dollars": "0.5700",
+      "no_ask_dollars": "0.6500",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
       "volume_24h_fp": "0.00",
@@ -243431,10 +243530,10 @@
       "no_sub_title": "Over 50.5 points scored",
       "status": "active",
       "result": "",
-      "yes_bid_dollars": "0.5500",
+      "yes_bid_dollars": "0.5400",
       "yes_ask_dollars": "0.5700",
       "no_bid_dollars": "0.4300",
-      "no_ask_dollars": "0.4500",
+      "no_ask_dollars": "0.4600",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
       "volume_24h_fp": "0.00",
@@ -250437,7 +250536,7 @@
       "no_ask_dollars": "0.5000",
       "last_price_dollars": "0.5100",
       "volume_fp": "2404.31",
-      "volume_24h_fp": "1319.79",
+      "volume_24h_fp": "1318.79",
       "open_interest_fp": "2262.86",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-09-28T23:00:00Z",
@@ -254982,8 +255081,8 @@
       "status": "active",
       "result": "",
       "yes_bid_dollars": "0.5400",
-      "yes_ask_dollars": "0.5700",
-      "no_bid_dollars": "0.4300",
+      "yes_ask_dollars": "0.5800",
+      "no_bid_dollars": "0.4200",
       "no_ask_dollars": "0.4600",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
@@ -265462,8 +265561,8 @@
       "status": "active",
       "result": "",
       "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9400",
-      "no_bid_dollars": "0.0600",
+      "yes_ask_dollars": "0.9500",
+      "no_bid_dollars": "0.0500",
       "no_ask_dollars": "0.0800",
       "last_price_dollars": "0.0000",
       "volume_fp": "0.00",
@@ -266512,8 +266611,8 @@
       "status": "active",
       "result": "",
       "yes_bid_dollars": "0.1800",
-      "yes_ask_dollars": "0.1900",
-      "no_bid_dollars": "0.8100",
+      "yes_ask_dollars": "0.2000",
+      "no_bid_dollars": "0.8000",
       "no_ask_dollars": "0.8200",
       "last_price_dollars": "0.1800",
       "volume_fp": "70.97",
@@ -266661,10 +266760,10 @@
       "no_sub_title": "Over 9.5 runs scored",
       "status": "active",
       "result": "",
-      "yes_bid_dollars": "0.5400",
+      "yes_bid_dollars": "0.5300",
       "yes_ask_dollars": "0.5600",
       "no_bid_dollars": "0.4400",
-      "no_ask_dollars": "0.4600",
+      "no_ask_dollars": "0.4700",
       "last_price_dollars": "0.5500",
       "volume_fp": "272.44",
       "volume_24h_fp": "272.44",
@@ -269065,10 +269164,10 @@
       "custom_strike": {
         "ufc_competitor": "6122200a-b724-434f-bc2a-32dd61daa1cb"
       },
-      "yes_bid_dollars": "0.4600",
+      "yes_bid_dollars": "0.4500",
       "yes_ask_dollars": "0.4700",
       "no_bid_dollars": "0.5300",
-      "no_ask_dollars": "0.5400",
+      "no_ask_dollars": "0.5500",
       "last_price_dollars": "0.4700",
       "volume_fp": "5865.60",
       "volume_24h_fp": "1086.58",
@@ -269287,7 +269386,7 @@
       "no_ask_dollars": "0.5800",
       "last_price_dollars": "0.4300",
       "volume_fp": "10337.69",
-      "volume_24h_fp": "6547.90",
+      "volume_24h_fp": "6436.90",
       "open_interest_fp": "10138.31",
       "liquidity_dollars": "0.0000",
       "close_time": "2026-10-11T01:20:00Z",
